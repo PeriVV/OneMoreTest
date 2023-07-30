@@ -101,10 +101,10 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 - Run ```python daikon.py```
 
-#Table
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+## Table
+|  ID   | Method Signature  |  Size   | # Invoked Methods  |
+|  ----  | ---- ｜ ----  | ----  |
+| M1  | JsonPointer compile(String) | 26  | 5 |
+| M2  | int read(byte[],int,int) | 24  | 1 |
 
 

@@ -9,8 +9,9 @@
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)
+- [Table]
 # Introduction
-This is the replication package of the paper "One More Test: A Novel Approach to Generating and Selecting Fault-Revealing Unit Tests". It is composed of tools (including the proposed approach and baseline approaches) and  data employed in the evaluation.
+This is the replication package of the paper "One More Test: A Novel Approach to Generating and Selecting Fault-Revealing Unit Tests". It is composed of tools (including the proposed approach and baseline approaches) and data employed in the evaluation.
 
 # Structure
 - Code: source code of the experiment

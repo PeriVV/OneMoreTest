@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+-7
+1.2798095916366492E-12
+

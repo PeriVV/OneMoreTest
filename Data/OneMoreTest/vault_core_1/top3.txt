@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+PATHS$/content/foo$java.lang.Exception: ARPEHXLN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('pzzpaywzpt');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('xoyltutsxw');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: FBCEMNFG)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: OGDKPUTE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: OGDKPUTE)</span><br><span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ESUJZRAVRFA)</span><br>
+

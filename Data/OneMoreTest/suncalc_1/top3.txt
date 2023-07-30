@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+2001$10$3$
+null
+
+2020$11$1$
+null
+
+2001$11$1$
+null
+

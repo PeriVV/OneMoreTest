@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+99#1319938200000
+1379809800000
+

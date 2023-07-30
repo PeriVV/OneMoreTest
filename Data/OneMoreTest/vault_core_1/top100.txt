@@ -1,0 +1,302 @@
+Top 100 test cases:
+input	output
+PATHS$/content/foo$java.lang.Exception: <script>alert('lrsysnfsry');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: XEEPVGGW)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('atitrrwnst');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: YGEHWEEL)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('guwvtpwzna');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: SIQKPOIG)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: EFNAPWHD$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('stxskxewew');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ORHFPJRK$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qsghzwrkmv');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('nyrjxzshrf');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: IAHESMIF)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('xswzqysgyv');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: TSVJRVUX)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: LMXCRHLD$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('zjskxathys');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: UBCTOXST$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ueilyhzxaz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: BKTCCKME$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('kzjdmtzqxf');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ZCVNRAQP$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dnpozmrxza');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ILLLIBVD$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('nekwyrdyto');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: RKFOCQBE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ezzrxvltkk');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ONTKHHLL$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('cqgrpnrfyw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: KTMMHKMV$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('sdfkzwugxp');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XBKVTJJB$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('uyhxripuor');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('wxunzuilza');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ERSEDIIO)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: YGGHVTPM$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qbhnluzzis');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: AWXDDPHZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('gmhtypizix');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: SMRKNFMWJ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('owgrvdtxyr');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: HJNBIFMLG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('pukykuivsx');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('fywqwpehwx');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ICFCOCJW)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: TAXBVWMI$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dagyrowetz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: YEUIDUCIS$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ujloxybyzs');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('yvzojlqxix');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: EGBKBKWM)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: TYFJMJGG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('rddftoxzzf');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WGESXAQJB$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('tdwptzqkqz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XSPIRBFWK$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('kblyenqxwz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: FTSKNEIUO$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('cwvfxzohyw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: YMRVQMDH$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('jpvtyanrwq');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('emulzvrysk');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: OFUCRUCQ)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: TBHTYJUE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('hknbzxiqzo');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: FXCOFSIR$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('idtyyjtycx');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: RKJCTFEE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('hmwfjqrbxz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QPVMYAKO$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('sxvnrozpay');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: SRRENNAY$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('jdvcqqnvvq');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: MMVFIEEO$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('zwzrdmybru');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('mzpvubzttr');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: FUYADDSP)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: JWFJEMEB$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('uohqakxxnw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('iwxpqxkpmz');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: RBEGWCOM)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('yvtxskyiui');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: XIVHGRPN)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('zntdxmfyyq');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: XOMEFJDI)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: BOCROZGV$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('zjoifnxqxr');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QTXNGMGQA$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('guzzdtzrvn');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: JXLQCNHG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ynibxkpkvz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: EUUJGZTY$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('eudqgrwtqw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: UBPFYMLZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('mnvqhwhczy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WMGHYDOAR$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('wustbtzykz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: MGZXAOQF$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('kcmqwryopv');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ZTPEHKDFL$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('zvwjytkkuz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: HKHLILSX$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('fnwcntpsyo');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: IAHESMIF$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('mkbhvwtoqw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: SQECXWBL$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('lybwbbuuuw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('zxoxljovnm');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: PWGCBAWZ)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('ptnirzynyc');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: SCACJWTG)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QSZGNAAK$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('xvvpypmkrs');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QTTDRVIH$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('cktkmfsqxy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('qylzlxhxxx');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ATGIZDEH)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: SJFMMFTZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('mjtqzbprpz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: VEPSLMYN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('iuoxdgrxqx');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('gxyyiulwhz');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: LJFDDDMD)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: MOOYOKDH$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('uyuiuuswuf');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WOESFBMO$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('niiyflwxzl');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('vzwiqhyxzv');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: IUXWEFOW)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('vyywrfvgos');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: RUWBDDIW)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: LDGYJIGL$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('atitrrwnst');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XGYJLSZME$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ijxqnvttvx');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: GJGKEGJB$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('jahvtiyssv');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('rcxryytnsy');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: AEDGBPTA)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: NMSZWIMQC$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ttrrwoszvr');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: TFLLIFDWI$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('rurapxxxwn');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: RWOUJMTLC$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('aeprwwyowy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XCPCJXGG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('vhnztnloux');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: HQEQLJEQ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ogsmhzwnzp');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('yeuyyumvlk');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: XMOAFSJX)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QDIIBWVI$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('fzfohodywz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: HSXDBMQVR$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('xoyltutsxw');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: NBFOWHZZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dwntqtovqu');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: MLOHVKFC$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('bubgnukwuz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WZUJBBHYQ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qylzlxhxxx');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: NYIUPYMK$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ytfrptlqwy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: PQTYRBUG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dumsdzwyot');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: UMQGUAJD$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('awovjytynq');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: DKHRYXEZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('nloytwuzrm');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ITBRDPJQ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('htomjtwtxr');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('rzpswlusxj');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: UNLOOIEY)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: QFNVVYKJG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ypzxhqvzrz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: TAGOYOYZ$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('vnluzubrzv');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('yuxrdystrz');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: NDXFETNT)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XVYQLHPG$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('yokuktvsys');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: GXGNFBBC$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('gtprllyovz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XBBNUICH$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ituwjvlyyn');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('iyctxnxwsk');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: WMETFAAY)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WHCCPAMT$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qyxqawrppz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: RVPJKGUW$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qzmaizpzpy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('vriyvuuwxc');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: UFBZEGID)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: OMZZYLEN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dpvbnyzrsz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ARPEHXLN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('pzzpaywzpt');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('xoyltutsxw');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: FBCEMNFG)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: OGDKPUTE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: OGDKPUTE)</span><br><span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ESUJZRAVRFA)</span><br>
+

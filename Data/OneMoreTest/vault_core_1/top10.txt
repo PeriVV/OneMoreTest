@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+PATHS$/content/foo$java.lang.Exception: GXGNFBBC$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('gtprllyovz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: XBBNUICH$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('ituwjvlyyn');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('iyctxnxwsk');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: WMETFAAY)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: WHCCPAMT$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qyxqawrppz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: RVPJKGUW$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('qzmaizpzpy');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('vriyvuuwxc');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: UFBZEGID)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: OMZZYLEN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('dpvbnyzrsz');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: ARPEHXLN$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: <script>alert('pzzpaywzpt');</script>)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: <script>alert('xoyltutsxw');</script>$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: FBCEMNFG)</span><br>
+
+PATHS$/content/foo$java.lang.Exception: OGDKPUTE$
+<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: OGDKPUTE)</span><br><span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ESUJZRAVRFA)</span><br>
+

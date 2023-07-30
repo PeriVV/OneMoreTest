@@ -127,7 +127,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M20   | float round(float x, int scale, int roundingMethod) | 5  | 3 |
 |   M21   | double gamma(final double x) | 62  | 5 |
 |   M22   | <T> T fromJson(String json, Class<T> classOfT) | 3  | 2 |
-|   M23   | FloatWritable evaluate(final Float value, final Float min, final Float max) | 12  | 1 |
+|   M23   | FloatWritable evaluate(final Float value, <br/>final Float min, final Float max) | 12  | 1 |
 |   M24   | print(Mode mode, String action, String path, String msg) | 28  | 3 |
 |   M25   | _findSecondary(int origOffset, int hash, int[] q, int qlen) | 23  | 2 |
 |   M26   | boolean isCachable() | 6  | 1 |
@@ -136,15 +136,15 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M29   | void writeFieldName(String name) | 4  | 2 |
 |   M30   | JsonToken nextToken() | 133  | 21 |
 |   M31   | String convertToString() | 31  | 3 |
-|   M32   | decodeEncodedWords(String body, DecodeMonitor monitor, Charset fallback) | 35  | 7 |
-|   M33   | String encodeEncodedWord(String text, <br/>Usage usage, int usedCharacters, Charset charset, Encoding encoding) | 23  | 5 |
+|   M32   | decodeEncodedWords(String body, <br/>DecodeMonitor monitor, Charset fallback) | 35  | 7 |
+|   M33   | String encodeEncodedWord(String text, Usage usage, <br/>int usedCharacters, Charset charset, Encoding encoding) | 23  | 5 |
 |   M34   | Fraction multiply(final int i) | 3  | 1 |
 |   M35   | double cumulativeProbability(double x) | 6  | 2 |
 |   M36   | String soundex(String str) | 23  | 1 |
 |   M37   | Token nextToken(Token) | 52  | 11 |
 |   M38   | String normalize(String filename) | 3  | 3 |
 |   M39   | JsonToken nextToken() | 131  | 18 |
-|   M40   | encode(final Map <String, String> args, final boolean concat, final String input) | 20  | 5 |
+|   M40   | encode(final Map <String, String> args, <br/>final boolean concat, final String input) | 20  | 5 |
 |   M41   | String sanitize(String str) | 26  | 2 |
 |   M42   | int anyInt() | 3  | 2 |
 |   M43   | boolean equals(Object) | 8  | 1 |
@@ -155,9 +155,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M48   | boolean containsWord(String word, String body) | 8  | 3 |
 |   M49   | URL[] toURLs(File[] files) | 8  | 1 |
 |   M50   | _deserialize(String value, DeserializationContext ctxt) | 70  | 12 |
-|   M51   | String encodeEncodedWord(String text, Usage usage,int usedCharacters, Charset charset, Encoding encoding) | 22  | 5 |
+|   M51   | String encodeEncodedWord(String text, Usage usage,<br/>int usedCharacters, Charset charset, Encoding encoding) | 22  | 5 |
 |   M52   | String doubleMetaphone(String) | 104  | 22 |
 |   M53   | boolean equals(Object obj) | 16  | 3 |
 |   M54   | boolean wildcardMatch (String filename, String wildcardMatcher) | 77  | 7 |
-
-

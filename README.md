@@ -137,7 +137,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M30   | JsonToken nextToken() | 133  | 21 |
 |   M31   | String convertToString() | 31  | 3 |
 |   M32   | decodeEncodedWords(String body, DecodeMonitor monitor, Charset fallback) | 35  | 7 |
-|   M33   | String encodeEncodedWord(String text, Usage usage, int usedCharacters, Charset charset, Encoding encoding) | 23  | 5 |
+|   M33   | String encodeEncodedWord(String text, <br/>Usage usage, int usedCharacters, Charset charset, Encoding encoding) | 23  | 5 |
 |   M34   | Fraction multiply(final int i) | 3  | 1 |
 |   M35   | double cumulativeProbability(double x) | 6  | 2 |
 |   M36   | String soundex(String str) | 23  | 1 |

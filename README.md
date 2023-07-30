@@ -5,7 +5,7 @@
 - [Operating Instruction](#operating-instruction)
     - [Test case generation](#test-case-generation)
     - [Environmental requirements](#environmental-requirements)
-    - [OneMoreTest](#deeporacle)
+    - [OneMoreTest](#oneMoreTest)
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)

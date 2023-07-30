@@ -5,7 +5,7 @@
 - [Operating Instruction](#operating-instruction)
     - [Test case generation](#test-case-generation)
     - [Environmental requirements](#environmental-requirements)
-    - [DeepOracle](#deeporacle)
+    - [OneMoreTest](#deeporacle)
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)
@@ -45,7 +45,8 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
-![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/extractVariables.gif)
+![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateString.gif)
+![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateDouble.gif)
 
 ## Environmental requirements
 - jdk1.8/jdk11
@@ -98,7 +99,4 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 <img src='./Fig/Daikon.jpg' align=center />
 
 - Run ```python daikon.py```
-
-
-
 

@@ -45,7 +45,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
-![image](https://github.com/DeepOracle/DeepOracle/blob/main/DeepOracle.gif)
+![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/extractVariables.gif)
 
 ## Environmental requirements
 - jdk1.8/jdk11

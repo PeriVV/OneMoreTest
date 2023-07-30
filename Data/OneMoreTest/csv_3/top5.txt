@@ -1,0 +1,17 @@
+Top 5 test cases:
+input	output
+UymWAyGFxu
+UymWAyGFxu
+
+DaXFpCEdrz
+DaXFpCEdrz
+
+ihWSuYCuyz
+ihWSuYCuyz
+
+JqkFsOACry
+JqkFsOACry
+
+UJeAgAJAuy
+UJeAgAJAuy
+

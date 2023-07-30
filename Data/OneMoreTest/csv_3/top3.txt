@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+ihWSuYCuyz
+ihWSuYCuyz
+
+JqkFsOACry
+JqkFsOACry
+
+UJeAgAJAuy
+UJeAgAJAuy
+

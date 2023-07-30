@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+ernrbkqmxg
+E656
+
+kwmryrjr
+K566
+
+grumrww
+G656
+
+cmrurs
+C566
+
+jxnyurersf
+J566
+
+arnroy
+A656
+
+dmryrhtaef
+D566
+
+cyryumrfb
+C656
+
+aryinrtlc
+A656
+
+crinrztfzm
+C656
+

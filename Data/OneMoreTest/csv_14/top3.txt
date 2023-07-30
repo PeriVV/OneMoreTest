@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+\cXAcDMeNwDgdKMdmapax
+"\cXAcDMeNwDgdKMdmapax"
+
+\KyXuufCghhcjxEvAzKfu
+"\KyXuufCghhcjxEvAzKfu"
+
+\prTGkCBSUxhjALAJStuk
+"\prTGkCBSUxhjALAJStuk"
+

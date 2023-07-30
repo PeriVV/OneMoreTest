@@ -1,0 +1,16 @@
+Top 5 test cases:
+input	output
+$srhzua%results.add(srhzua);
+true
+
+$wsxpl%results.add(wsxpl);
+true
+
+$otuxk%results.add($otuxk);
+true
+
+$psauz%results.add($psauz);
+true
+
+$$pkpgc%results.add($$pkpgc);
+true

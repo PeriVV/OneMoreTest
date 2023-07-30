@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+\WsSFSQEIvBNCwkcduXhU
+"\WsSFSQEIvBNCwkcduXhU"
+
+\JZvDwkwVfLsNFkGhTTx
+"\JZvDwkwVfLsNFkGhTTx"
+
+\yqNBcfisfPHUgFbOdSNl
+"\yqNBcfisfPHUgFbOdSNl"
+
+\POJXpFkuDpFeevqcKpTw
+"\POJXpFkuDpFeevqcKpTw"
+
+\iYUQQgyubLQSeSVqEHwg
+"\iYUQQgyubLQSeSVqEHwg"
+
+\qdHYCRfArIGyZRVIFSSu
+"\qdHYCRfArIGyZRVIFSSu"
+
+\UbDLzYkTOazuPQyPSkoe
+"\UbDLzYkTOazuPQyPSkoe"
+
+\cXAcDMeNwDgdKMdmapax
+"\cXAcDMeNwDgdKMdmapax"
+
+\KyXuufCghhcjxEvAzKfu
+"\KyXuufCghhcjxEvAzKfu"
+
+\prTGkCBSUxhjALAJStuk
+"\prTGkCBSUxhjALAJStuk"
+

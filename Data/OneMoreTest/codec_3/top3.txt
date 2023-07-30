@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+

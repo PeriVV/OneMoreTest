@@ -1,0 +1,17 @@
+Top 5 test cases:
+input	output
+arnroy
+A656
+
+dmryrhtaef
+D566
+
+cyryumrfb
+C656
+
+aryinrtlc
+A656
+
+crinrztfzm
+C656
+

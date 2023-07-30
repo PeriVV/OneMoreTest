@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+cyryumrfb
+C656
+
+aryinrtlc
+A656
+
+crinrztfzm
+C656
+

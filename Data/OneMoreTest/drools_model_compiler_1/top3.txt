@@ -1,0 +1,10 @@
+Top 3 test cases:
+input	output
+$otuxk%results.add($otuxk);
+true
+
+$psauz%results.add($psauz);
+true
+
+$$pkpgc%results.add($$pkpgc);
+true

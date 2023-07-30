@@ -1,0 +1,302 @@
+Top 100 test cases:
+input	output
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Hooch
+TK
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+

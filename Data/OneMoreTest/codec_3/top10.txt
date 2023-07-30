@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+
+de Haia
+T
+

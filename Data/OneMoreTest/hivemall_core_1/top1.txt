@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+-1.8$0.0$1.0$
+-1.8
+

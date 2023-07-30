@@ -103,7 +103,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 ## Table
 |   ID   |      Method Signature     |  Size   | # Invoked Methods  |
-|--------|------------------------------|-------|-------|
+|:------:|:----------------------------:|:-------:|:-------:|
 |   M1   | JsonPointer compile(String) | 26  | 5 |
 |   M2   | int read(byte[],int,int) | 24  | 1 |
 

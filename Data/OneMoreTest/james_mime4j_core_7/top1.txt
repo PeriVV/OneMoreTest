@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+=?ISO-8859-1?Q?a?=
+a
+

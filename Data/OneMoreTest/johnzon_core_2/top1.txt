@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+4 4.9
+true
+

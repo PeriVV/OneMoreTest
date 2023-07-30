@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+file2.txt
+true
+

@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+=?ISO-8859-1?Q?a?=
+a
+
+=?ISO-8859-1?Q?a?=
+a
+
+=?ISO-8859-1?Q?a?=
+a
+

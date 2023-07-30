@@ -1,0 +1,300 @@
+Top 100 test cases:
+input	output
+<windSpeed units='kt'> 8 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 4 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 8 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 1 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 5 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 7 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 9 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 2 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 2 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 6 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 8 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 2 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 6 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 9 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>0

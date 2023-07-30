@@ -1,0 +1,9 @@
+Top 3 test cases:
+input	output
+b
+{"a"}
+
+b
+{"a"}
+
+b{"a"}

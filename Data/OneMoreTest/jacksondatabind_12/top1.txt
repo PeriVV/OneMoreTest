@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+{"map1":{"a":100},"map2":{"a":100}}
+10000
+

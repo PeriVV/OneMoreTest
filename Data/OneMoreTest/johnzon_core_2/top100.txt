@@ -1,0 +1,302 @@
+Top 100 test cases:
+input	output
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+1 1.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+2 2.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+3 3.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+

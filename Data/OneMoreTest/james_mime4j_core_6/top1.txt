@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+c𝕫𝕫𝕫$TEXT_TOKEN$3$null$B$
+=?UTF-8?B?Y/CdlavwnZWr8J2Vqw==?=$
+

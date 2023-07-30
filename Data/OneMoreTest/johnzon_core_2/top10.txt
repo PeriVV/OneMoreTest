@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+
+4 4.9
+true
+

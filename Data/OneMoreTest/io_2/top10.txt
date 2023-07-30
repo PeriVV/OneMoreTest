@@ -1,0 +1,32 @@
+Top 10 test cases:
+input	output
+\server.example.org\g.txt
+1
+
+\server.example.org\p.txt
+1
+
+\server.example.org\d.txt
+1
+
+\server.example.org\x.txt
+1
+
+\server.example.org\x.txt
+1
+
+\server.example.org\h.txt
+1
+
+\server.example.org\p.txt
+1
+
+\server.example.org\m.txt
+1
+
+\server.example.org\u.txt
+1
+
+\server.example.org\d.txt
+1
+

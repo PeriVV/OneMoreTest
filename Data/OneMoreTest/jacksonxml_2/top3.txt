@@ -1,0 +1,9 @@
+Top 3 test cases:
+input	output
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>
+0
+
+<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>0

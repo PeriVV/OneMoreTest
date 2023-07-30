@@ -1,0 +1,15 @@
+Top 5 test cases:
+input	output
+<Records><records></records><records><fields name='j'/></records></Records>
+null
+
+<Records><records></records><records><fields name='q'/></records></Records>
+null
+
+<Records><records></records><records><fields name='i'/></records></Records>
+null
+
+<Records><records></records><records><fields name='i'/></records></Records>
+null
+
+<Records><records></records><records><fields name='l'/></records></Records>null

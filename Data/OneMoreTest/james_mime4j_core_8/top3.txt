@@ -1,0 +1,11 @@
+Top 3 test cases:
+input	output
+z𝕫𝕫𝕫𝕫𝕫$TEXT_TOKEN$10$null$Q$
+=?UTF-8?Q?z=F0=9D=95=AB=F0=9D=95=AB?= =?UTF-8?Q?=F0=9D=95=AB=F0=9D=95=AB=F0=9D=95=AB?=
+
+z𝕫𝕫𝕫𝕫𝕫$TEXT_TOKEN$10$null$Q$
+=?UTF-8?Q?z=F0=9D=95=AB=F0=9D=95=AB?= =?UTF-8?Q?=F0=9D=95=AB=F0=9D=95=AB=F0=9D=95=AB?=
+
+z𝕫𝕫𝕫𝕫𝕫$TEXT_TOKEN$10$null$Q$
+=?UTF-8?Q?z=F0=9D=95=AB=F0=9D=95=AB?= =?UTF-8?Q?=F0=9D=95=AB=F0=9D=95=AB=F0=9D=95=AB?=
+

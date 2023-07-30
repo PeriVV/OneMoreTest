@@ -1,0 +1,5 @@
+Top 1 test case:
+input	output
+10000000000.00000
+1.0E+10
+

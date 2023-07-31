@@ -32,6 +32,19 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - DataGenerator.jar: Jar package for random generation of test cases
 - GenerateTestCases: IDEA plug-in project that randomly generates test cases
 
+## Environmental requirements
+- jdk1.8/jdk11
+- python3.6
+- daikon
+
+- Daikon (only for daikon-based selection)
+    - Download daikon from [Daikon](http://plse.cs.washington.edu/daikon/download/)
+    - Install Daikon environment according to the [Daikon Documentation](http://plse.cs.washington.edu/daikon/download/doc/daikon.html#Installing-Daikon)
+    - Compile the target java files: run ```javac -g RootPath/*.java```
+    - Run DynComp: ```java -cp .:$DAIKONDIR/daikon.jar daikon.Chicory --daikon --comparability-file=ClassName.decls-DynComp PackageName.ClassName```
+    - Run Chicory: ```java -cp .:$DAIKONDIR/daikon.jar daikon.Chicory --comparability-file=ClassName.decls-DynComp PackageName.ClassName```
+    - Run Daikon: ```java -cp $DAIKONDIR/daikon.jar daikon.Daikon ClassName.dtrace.gz > daikon.txt```
+
 # Operating Instruction
 ## Test case generation
 - Download DataGenerator.jar,GenerateTestCases project
@@ -48,19 +61,6 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateString.gif)
 ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateDouble.gif)
-
-## Environmental requirements
-- jdk1.8/jdk11
-- python3.6
-- daikon
-
-- Daikon (only for daikon-based selection)
-    - Download daikon from [Daikon](http://plse.cs.washington.edu/daikon/download/)
-    - Install Daikon environment according to the [Daikon Documentation](http://plse.cs.washington.edu/daikon/download/doc/daikon.html#Installing-Daikon)
-    - Compile the target java files: run ```javac -g RootPath/*.java```
-    - Run DynComp: ```java -cp .:$DAIKONDIR/daikon.jar daikon.Chicory --daikon --comparability-file=ClassName.decls-DynComp PackageName.ClassName```
-    - Run Chicory: ```java -cp .:$DAIKONDIR/daikon.jar daikon.Chicory --comparability-file=ClassName.decls-DynComp PackageName.ClassName```
-    - Run Daikon: ```java -cp $DAIKONDIR/daikon.jar daikon.Daikon ClassName.dtrace.gz > daikon.txt```
 
 ## OneMoreTest
 - Generate Test cases

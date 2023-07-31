@@ -126,13 +126,13 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M19   | Date getRise() | 3  | 1 |
 |   M20   | float round(float, int, int) | 5  | 3 |
 |   M21   | double gamma(final double) | 62  | 5 |
-|   M22   | <T> T fromJson(String, Class<T>) | 3  | 2 |
+|   M22   | &lt;T&gt; T fromJson(String, Class&lt;T&gt;) | 3  | 2 |
 |   M23   | FloatWritable evaluate(final Float, <br/>final Float, final Float) | 12  | 1 |
 |   M24   | print(Mode mode, String, String, String) | 28  | 3 |
 |   M25   | _findSecondary(int, int, int[], int) | 23  | 2 |
 |   M26   | boolean isCachable() | 6  | 1 |
-|   M27   | <T> T readValue(String) | 8  | 2 |
-|   M28   | <T extends JsonNode> T valueToTree (Object) | 15  | 3 |
+|   M27   | &lt;T&gt; T readValue(String) | 8  | 2 |
+|   M28   | &lt;T extends JsonNode&gt; T valueToTree (Object) | 15  | 3 |
 |   M29   | void writeFieldName(String) | 4  | 2 |
 |   M30   | JsonToken nextToken() | 133  | 21 |
 |   M31   | String convertToString() | 31  | 3 |
@@ -144,12 +144,12 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M37   | Token nextToken(Token) | 52  | 11 |
 |   M38   | String normalize(String) | 3  | 3 |
 |   M39   | JsonToken nextToken() | 131  | 18 |
-|   M40   | encode(final Map <String, String>, <br/>final boolean, final String) | 20  | 5 |
+|   M40   | encode(final Map &lt;String, String&gt;, <br/>final boolean, final String) | 20  | 5 |
 |   M41   | String sanitize(String) | 26  | 2 |
 |   M42   | int anyInt() | 3  | 2 |
 |   M43   | boolean equals(Object) | 8  | 1 |
 |   M44   | double pow(double, double) | 122  | 1 |
-|   M45   | <T> T readValue(String, Class <T>) | 27  | 6 |
+|   M45   | &lt;T&gt; T readValue(String, Class &lt;T&gt;) | 27  | 6 |
 |   M46   | int getPrefixLength(String) | 52  | 2 |
 |   M47   | round(double, int, int) | 14  | 4 |
 |   M48   | boolean containsWord(String, String) | 8  | 3 |

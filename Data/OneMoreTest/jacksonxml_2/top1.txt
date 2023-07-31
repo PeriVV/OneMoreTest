@@ -1,3 +1,0 @@
-Top 1 test case:
-input	output
-<windSpeed units='kt'> 0 <radius>20</radius></windSpeed>0

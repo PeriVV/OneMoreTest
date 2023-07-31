@@ -1,9 +1,0 @@
-Top 3 test cases:
-input	output
--1.0
--1.0
-
--1.0
--1.0
-
--1.0-1.0

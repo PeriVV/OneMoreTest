@@ -1,4 +1,0 @@
-Top 1 test case:
-input	output
-$$pkpgc%results.add($$pkpgc);
-true

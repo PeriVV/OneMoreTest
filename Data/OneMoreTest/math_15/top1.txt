@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
--1.0 9.3950606230467E13
--1.0
-

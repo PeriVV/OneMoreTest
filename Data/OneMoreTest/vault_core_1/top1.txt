@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-PATHS$/content/foo$java.lang.Exception: OGDKPUTE$
-<span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: OGDKPUTE)</span><br><span class="E"><b>E</b>&nbsp;/content/foo (java.lang.Exception: ESUJZRAVRFA)</span><br>
-

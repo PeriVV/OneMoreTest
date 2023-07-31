@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-{WERCKER_GIT_BRANCH=dpsgli, WERCKER_RUN_URL=https://app.wercker.com/build/234567890}
-wercker
-[1]

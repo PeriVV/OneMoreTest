@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-0#1319938200000
-1319934600000
-

@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-/06090
-6090
-

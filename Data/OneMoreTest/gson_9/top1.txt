@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-0.00$2$0$
--2.2351741E-10
-

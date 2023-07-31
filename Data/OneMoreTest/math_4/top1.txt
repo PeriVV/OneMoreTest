@@ -1,3 +1,0 @@
-Top 1 test case:
-input	output
-677.72272.1440201891612005E294[1]

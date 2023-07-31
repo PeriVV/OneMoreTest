@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-{nameType=GENERIC, ruleType=APPROX}$true$axbx$
-YgzbgS|Ygzbgs|Ygzpks|YksbgS|Yksbgs|Ykspks|agzbg|agzbgS|agzbgs|agzfS|agzfks|agzfs|agzpS|agzpk|agzpks|agzps|agzvgS|agzvgs|aksbg|aksbgS|aksbgs|aksfS|aksfks|aksfs|akspS|akspk|akspks|aksps|aksvgS|aksvgs|asbgS|asbgs|asfS|asfks|asfs|aspS|aspks|asps|asvgS|asvgs|ogzbg|ogzbgS|ogzbgs|ogzfS|ogzfks|ogzfs|ogzpS|ogzpk|ogzpks|ogzps|ogzvgS|ogzvgs|oksbg|oksbgS|oksbgs|oksfS|oksfks|oksfs|okspS|okspk|okspks|oksps|oksvgS|oksvgs|osbgS|osbgs|osfS|osfks|osfs|ospS|ospks|osps|osvgS|osvgs
-

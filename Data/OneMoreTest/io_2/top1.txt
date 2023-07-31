@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-\server.example.org\d.txt
-1
-

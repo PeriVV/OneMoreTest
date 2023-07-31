@@ -1,5 +1,0 @@
-Top 1 test case:
-input	output
-2001$11$1$
-null
-

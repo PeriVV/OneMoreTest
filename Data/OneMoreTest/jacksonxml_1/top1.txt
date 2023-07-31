@@ -1,3 +1,0 @@
-Top 1 test case:
-input	output
-<Records><records></records><records><fields name='l'/></records></Records>null

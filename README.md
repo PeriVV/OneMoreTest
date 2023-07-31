@@ -9,7 +9,7 @@
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)
-- [Table](#table)
+- [Selected Real-world Faulty Methods](#selected-real-world-faulty-methods)
 # Introduction
 This is the replication package of the paper "One More Test: A Novel Approach to Generating and Selecting Fault-Revealing Unit Tests". It is composed of tools (including the proposed approach and baseline approaches) and data employed in the evaluation.
 
@@ -102,7 +102,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 - Run ```python daikon.py```
 
-## Table
+## Selected Real-world Faulty Methods
 |   ID   |      Method Signature     |  Size(LOC)   | # Invoked Methods  |
 |:------:|:----------------------------:|:-------:|:-------:|
 |   M1   | JsonPointer compile(String) | 26  | 5 |

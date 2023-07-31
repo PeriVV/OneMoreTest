@@ -38,8 +38,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Run GenerateTestCases as IDEA plug-in project
 - Import the DataGenerator.jar into the project under test
 - Select the method under test(MUT)
-- Click the ***Extract Variables*** button
-- ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/extractVariables.gif)
+- Mutate the tests
 - Click the ***Generate Data*** button
 - Select the inputs and outputs to generate
 - Click the ***Confirm*** button

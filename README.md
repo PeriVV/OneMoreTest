@@ -34,11 +34,12 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 # Operating Instruction
 ## Test case generation
-- Download DataGenerator.jar,TestOracle project
+- Download DataGenerator.jar,GenerateTestCases project
 - Run GenerateTestCases as IDEA plug-in project
 - Import the DataGenerator.jar into the project under test
 - Select the method under test(MUT)
 - Click the ***Extract Variables*** button
+- ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/extractVariables.gif)
 - Click the ***Generate Data*** button
 - Select the inputs and outputs to generate
 - Click the ***Confirm*** button
@@ -46,7 +47,6 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
-![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/extractVariables.gif)
 ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateString.gif)
 ![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateDouble.gif)
 

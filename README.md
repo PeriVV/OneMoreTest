@@ -116,7 +116,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 |   M9   | MonthDay minusMonths(int) | 9  | 6 |
 |   M10   | MonthDay plusMonths(int) | 9  | 6 |
 |   M11   | boolean isSameLocalTime(Calendar, Calendar) | 13  | 1 |
-|   M12   | int read(byte[],int,int) | 14  | 3 |
+|   M12   | int read(byte[], int, int) | 14  | 3 |
 |   M13   | long getTimeout() | 7  | 1 |
 |   M14   | boolean equals(Object) | 3  | 1 |
 |   M15   | long readBits(int) | 30  | 1 |

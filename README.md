@@ -2,10 +2,10 @@
 - [Introduction](#introduction) 
 - [Structure](#structure)
 - [SourceCode Description](#sourcecode-description-code)
+- [Environmental requirements](#environmental-requirements)
 - [Operating Instruction](#operating-instruction)
     - [Test case generation](#test-case-generation)
-    - [Environmental requirements](#environmental-requirements)
-    - [OneMoreTest](#oneMoreTest)
+    - [Execution of OneMoreTest](#execution-of-oneMoreTest)
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)
@@ -52,6 +52,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Import the DataGenerator.jar into the project under test
 - Select the method under test(MUT)
 - Mutate the tests
+
 - Click the ***Generate Data*** button
 - Select the inputs and outputs to generate
 - Click the ***Confirm*** button
@@ -59,10 +60,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
-![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateString.gif)
-![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Gif/generateDouble.gif)
-
-## OneMoreTest
+## Execution of OneMoreTest
 - Generate Test cases
     - before_data.txt: the input of test cases
     - after_data.txt: the output of test cases
@@ -78,9 +76,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 ## Random-based selection
 - Load the corresponding data as dataset.(input,output,label)
 
-- execute ```random.shuffle(dataset)```
-
-- Run ```python count_label.py```
+- Run ```python randomSelection.py```
 
 ## Coverage-based selection
 - Select the corresponding test case and line coverage file path (```load_file(compare_path)```)

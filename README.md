@@ -75,12 +75,12 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - ```python test.py```
 
 ## Random-based selection
-- Load the corresponding data as dataset.(input,output,label)
+- Load the corresponding data as dataset.
 
 - Run ```python randomSelection.py```
 
 ## Coverage-based selection
-- Select the corresponding test case and line coverage file path (```load_file(compare_path)```)
+- Select the corresponding test case and line coverage file path.
 
 - Run ```python Coverage.py```
 

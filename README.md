@@ -91,10 +91,9 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 ## Daikon-based selection
 - Run Daikon on MUT and get Daikon output information
-<img src='./Fig/DaikonInfo.jpg' align=center />
 
 - Generate the sorting algorithm base on the output of daikon
-<img src='./Fig/Algorithm.png' align=center />
+<img src='./Fig/Algorithm.jpg' align=center />
 
 - Select the corresponding sorting algorithm of MUT: ```main(method_path, 71)```
 <img src='./Fig/Daikon.jpg' align=center />

@@ -58,6 +58,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - (8) Click the ***Confirm*** button
 - (9) Manually set ranges for inputs based on data type
 - (10) Click the ***Generate*** button
+![image](https://github.com/OneMoreTest/OneMoreTest/blob/main/Fig/generateDouble.gif)
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
 ## Execution of OneMoreTest

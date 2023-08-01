@@ -1,7 +1,6 @@
 # Table of Contents
 - [Introduction](#introduction) 
 - [Structure](#structure)
-- [SourceCode Description](#sourcecode-description-code)
 - [Environmental requirements](#environmental-requirements)
 - [Operating Instruction](#operating-instruction)
     - [Test case generation](#test-case-generation)

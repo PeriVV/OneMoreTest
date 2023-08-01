@@ -18,7 +18,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Data: TrainingData & TestingData of experiment
 - Fig: Instructions
 
-## Environmental requirements
+# Environmental requirements
 - jdk1.8/jdk11
 - python3.6
 - daikon
@@ -76,9 +76,9 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Execute ```python Coverage.py```
 
 ## Daikon-based selection
-- Run Daikon on MUT and get Daikon output information
+- Run Daikon on MUT and get Daikon output information.
 
-- Generate the sorting algorithm base on the output of daikon
+- Generate the sorting algorithm base on the output of daikon.
 <img src='./Fig/Algorithm.jpg' align=center />
 
 - Select the corresponding sorting algorithm of MUT.

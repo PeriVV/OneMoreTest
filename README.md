@@ -46,7 +46,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
     - Run Daikon: ```java -cp $DAIKONDIR/daikon.jar daikon.Daikon ClassName.dtrace.gz > daikon.txt```
 
 # Operating Instruction
-## Test case generation
+## 1. Test case generation
 - Download DataGenerator.jar,GenerateTestCases project
 - Run GenerateTestCases as IDEA plug-in project
 - Import the DataGenerator.jar into the project under test

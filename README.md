@@ -51,9 +51,9 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - (3) Import the DataGenerator.jar into the project under test
 - (4) Select the method under test(MUT)
 - (5) Mutate the tests
-    - For example, the testing code of MUT before mutation is as follows.
+    For example, the testing code of MUT before mutation is as follows.
     <img src='./Fig/beforeMutation.jpg' align=center />
-    - After mutation, the actual output of the MUT is extracted as a variable.
+    After mutation, the actual output of the MUT is extracted as a variable.
     <img src='./Fig/afterMutation.jpg' align=center />
 - (6) Click the ***Generate Data*** button
 - (7) Select the inputs and outputs to generate

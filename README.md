@@ -14,23 +14,22 @@
 This is the replication package of the paper "One More Test: A Novel Approach to Generating and Selecting Fault-Revealing Unit Tests". It is composed of tools (including the proposed approach and baseline approaches) and data employed in the evaluation.
 
 # Structure
-- Code: source code of the experiment
+- Tools: source code of the experiment
 - Data: TrainingData & TestingData of experiment
-- Data/OneMoreTest: The experimental data of OneMoreTest
-- Data/Random: The experimental data of random-based selection
-- Data/Coverage: The experimental data of coverage-based selection
-- Data/Daikon: The experimental data of daikon-based selection
 - Gif: Instructions for generating test cases
 
-# SourceCode Description (/Code)
-- train.py: code file for training the neural network
-- test.py: code file for testing the neural network & Test case prioritization
-- loadData.py: Loading and processing data
-- defines.py: code file for defining the file path
+# SourceCode Description (/Tools)
+- GenerateTestCases: IDEA plug-in project that randomly generates test cases
+- DataGenerator.jar: Jar package for random generation of test cases
+- randomSelection.py: main file for random selection
 - Coverage.py: main file for coverage-based selection
 - daikon.py: main file for daikon-based selection
-- DataGenerator.jar: Jar package for random generation of test cases
-- GenerateTestCases: IDEA plug-in project that randomly generates test cases
+- OneMoreTest
+    - train.py: code file for training the neural network
+    - test.py: code file for testing the neural network & Test case prioritization
+    - loadData.py: Loading and processing data
+    - defines.py: code file for defining the file path
+
 
 ## Environmental requirements
 - jdk1.8/jdk11
@@ -47,17 +46,17 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 # Operating Instruction
 ## 1. Test case generation
-- Download DataGenerator.jar,GenerateTestCases project
-- Run GenerateTestCases as IDEA plug-in project
-- Import the DataGenerator.jar into the project under test
-- Select the method under test(MUT)
-- Mutate the tests
+- (1) Download DataGenerator.jar,GenerateTestCases project
+- (2) Run GenerateTestCases as IDEA plug-in project
+- (3) Import the DataGenerator.jar into the project under test
+- (4) Select the method under test(MUT)
+- (5) Mutate the tests
 
-- Click the ***Generate Data*** button
-- Select the inputs and outputs to generate
-- Click the ***Confirm*** button
-- Manually set ranges for inputs based on data type
-- Click the ***Generate*** button
+- (6) Click the ***Generate Data*** button
+- (7) Select the inputs and outputs to generate
+- (8) Click the ***Confirm*** button
+- (9) Manually set ranges for inputs based on data type
+- (10) Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
 ## Execution of OneMoreTest

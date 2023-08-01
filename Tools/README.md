@@ -1,0 +1,11 @@
+# SourceCode Description (/Tools)
+- GenerateTestCases: IDEA plug-in project that randomly generates test cases
+- DataGenerator.jar: Jar package for random generation of test cases
+- randomSelection.py: main file for random selection
+- Coverage.py: main file for coverage-based selection
+- daikon.py: main file for daikon-based selection
+- OneMoreTest
+    - train.py: code file for training the neural network
+    - test.py: code file for testing the neural network & Test case prioritization
+    - loadData.py: Loading and processing data
+    - defines.py: code file for defining the file path

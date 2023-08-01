@@ -57,21 +57,25 @@ This is the replication package of the paper "One More Test: A Novel Approach to
     X, seq_len_X, max_x, min_x = loadData.before_func.get(name)(before_file)
     Y, seq_len_Y, max_y, min_y = loadData.after_func.get(name)(after_file)
 ```
--  Then excute the following commands:
--  ```python train.py```
--  ```python test.py```
+-  Execute the following commands:
+```python
+    python train.py
+    python test.py
+```
 
 ## 3. Random-based selection
 - Load the corresponding data as dataset.
 ```python
     file_path = os.path.join(path, 'label.txt')
 ```
-- Execute ```python randomSelection.py```
+- Execute the following command:
+- ```python randomSelection.py```
 
 ## 4. Coverage-based selection
 - Run the corresponding tests, and use the coverage recording tool to record the number of lines of MUT covered by each test.
 - Select the line coverage file path.
-- Execute ```python Coverage.py```
+- Execute the following command:
+- ```python Coverage.py```
 
 ## 5. Daikon-based selection
 - Run Daikon on MUT and get Daikon output information.
@@ -81,5 +85,6 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 - Select the corresponding sorting algorithm of MUT.
 
-- Execute ```python daikon.py```
+- Execute the following command:
+- ```python daikon.py```
 

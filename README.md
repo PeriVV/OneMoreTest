@@ -47,7 +47,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - (10) Click the ***Generate*** button
 - Then you will see the ***before_data.txt*** and ***after_data.txt*** under the project folder
 
-## Execution of OneMoreTest
+## 2. Execution of OneMoreTest
 - Generate Test cases
     - before_data.txt: the input of test cases
     - after_data.txt: the output of test cases
@@ -63,19 +63,19 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 -  ```python train.py```
 -  ```python test.py```
 
-## Random-based selection
+## 3. Random-based selection
 - Load the corresponding data as dataset.
 ```python
     file_path = os.path.join(path, 'label.txt')
 ```
 - Execute ```python randomSelection.py```
 
-## Coverage-based selection
+## 4. Coverage-based selection
 - Run the corresponding tests, and use the coverage recording tool to record the number of lines of MUT covered by each test.
 - Select the line coverage file path.
 - Execute ```python Coverage.py```
 
-## Daikon-based selection
+## 5. Daikon-based selection
 - Run Daikon on MUT and get Daikon output information.
 
 - Generate the sorting algorithm base on the output of daikon.

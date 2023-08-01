@@ -69,7 +69,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
     file_path = os.path.join(path, 'label.txt')
 ```
 - Execute the following command:
-```python
+```
     python randomSelection.py
 ```
 
@@ -77,7 +77,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Run the corresponding tests, and use the coverage recording tool to record the number of lines of MUT covered by each test.
 - Select the line coverage file path.
 - Execute the following command:
-```python
+```
     python Coverage.py
 ```
 
@@ -90,7 +90,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 - Select the corresponding sorting algorithm of MUT.
 
 - Execute the following command:
-```python
+```
     python daikon.py
 ```
 

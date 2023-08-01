@@ -9,7 +9,6 @@
     - [Random-based selection](#random-based-selection)
     - [Coverage-based selection](#coverage-based-selection)
     - [Daikon-based selection](#daikon-based-selection)
-- [Selected Real-world Faulty Methods](#selected-real-world-faulty-methods)
 # Introduction
 This is the replication package of the paper "One More Test: A Novel Approach to Generating and Selecting Fault-Revealing Unit Tests". It is composed of tools (including the proposed approach and baseline approaches) and data employed in the evaluation.
 
@@ -33,7 +32,7 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 
 # Operating Instruction
 ## 1. Test case generation
-- (1) Download DataGenerator.jar,GenerateTestCases project
+- (1) Download DataGenerator.jar, GenerateTestCases project
 - (2) Run GenerateTestCases as IDEA plug-in project
 - (3) Import the DataGenerator.jar into the project under test
 - (4) Select the method under test(MUT)

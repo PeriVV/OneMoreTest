@@ -70,22 +70,20 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 <img src='./Fig/Data.jpg' align=center />
 
 - Select the corresponding data processing function: ``` loadData.load_isInner_before(before_file)```
-<img src='./Fig/LoadData.png' align=center />
 
-- Run ```python main.py```
+- Run
+- ```python train.py```
+- ```python test.py```
 
 ## Random-based selection
 - Load the corresponding data as dataset.(input,output,label)
-<img src='./Fig/RandomTest.jpg' align=center />
 
 - execute ```random.shuffle(dataset)```
-<img src='./Fig/Random.jpg' align=center />
 
 - Run ```python count_label.py```
 
 ## Coverage-based selection
 - Select the corresponding test case and line coverage file path (```load_file(compare_path)```)
-<img src='./Fig/Coverage.jpg' align=center />
 
 - Run ```python Coverage.py```
 
@@ -96,7 +94,6 @@ This is the replication package of the paper "One More Test: A Novel Approach to
 <img src='./Fig/Algorithm.jpg' align=center />
 
 - Select the corresponding sorting algorithm of MUT: ```main(method_path, 71)```
-<img src='./Fig/Daikon.jpg' align=center />
 
 - Run ```python daikon.py```
 

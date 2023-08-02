@@ -3,7 +3,7 @@
 |   ID   |      Method Signature     |  Size(LOC)   | # Invoked Methods  |
 |:------:|:----------------------------:|:-------:|:-------:|
 |   M1   | JsonPointer compile(String) | 26  | 5 |
-|   M2   | int read(byte[],int,int) | 24  | 1 |
+|   M2   | int read(byte[], int, int) | 24  | 1 |
 |   M3   | void print(Object) | 14  | 6 |
 |   M4   | void addYears(int) | 5  | 4 |
 |   M5   | void addMonths(int) | 5  | 4 |
@@ -42,7 +42,7 @@
 |   M38   | String normalize(String) | 3  | 3 |
 |   M39   | JsonToken nextToken() | 131  | 18 |
 |   M40   | encode(final Map &lt;String, String&gt;, <br/>final boolean, final String) | 20  | 5 |
-|   M41   | String sanitize(String) | 26  | 2 |
+|   M41   | String sanitize(final String) | 26  | 2 |
 |   M42   | int anyInt() | 3  | 2 |
 |   M43   | boolean equals(Object) | 8  | 1 |
 |   M44   | double pow(double, double) | 122  | 1 |

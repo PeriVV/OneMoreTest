@@ -512,7 +512,7 @@ def load_M6_after(filename):
 
 
 def load_M7_before(filename):
-    X, seq_len_X, max_x, min_x = load_data_time3(filename)
+    X, seq_len_X, max_x, min_x = load_array_split(filename, '#')
     return X, seq_len_X, max_x, min_x
 
 
@@ -862,12 +862,12 @@ def load_M42_after(filename):
 
 
 def load_M43_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
+    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
     return Y, seq_len_Y, max_y, min_y
 
 
 def load_M43_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
+    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
     return Y, seq_len_Y, max_y, min_y
 
 

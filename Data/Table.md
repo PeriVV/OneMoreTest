@@ -96,15 +96,10 @@
 |   M92  | double mannWhitneyUTest(final double[] x, final double[] y) | 14 | 3 |
 |   M93  | int inverseCumulativeProbability(final double p) | 43 | 14 |
 |   M94  | double getBoundarySize() | 4 | 3 |
-|   M95  | PointValuePair optimize(final LinearObjectiveFunction f,
-                                       <br/>final Collection<LinearConstraint> constraints,
-                                       <br/>final GoalType goalType, final boolean restrictToNonNegative) | 31 | 0 |
+|   M95  | PointValuePair optimize(final LinearObjectiveFunction f,<br/>final Collection<LinearConstraint> constraints,<br/>final GoalType goalType, final boolean restrictToNonNegative) | 31 | 0 |
 |   M96  | Iterator<Chromosome> iterator() | 3 | 1 |
-|   M97  | evaluate(final double[] values, final double[] weights,
-                           <br/>final double mean, final int begin, final int length) | 12  | 4 |
-|   M98  | RealPointValuePair optimize(final LinearObjectiveFunction f,
-                                       <br/>final Collection <LinearConstraint> constraints,
-                                       <br/>final GoalType goalType, final boolean restrictToNonNegative) | 16 | 1 |
+|   M97  | evaluate(final double[] values, final double[] weights, <br/>final double mean, final int begin, final int length) | 12 | 4 |
+|   M98  | RealPointValuePair optimize(final LinearObjectiveFunction f, <br/>final Collection <LinearConstraint> constraints, <br/>final GoalType goalType, final boolean restrictToNonNegative) | 16 | 1 |
 |   M99  | Complex atan() | 7 | 7 |
 |   M100  | double solve(int maxEval, FUNC f, double min, double max, double startValue) | 6  | 2 |
 |   M101  | RealVector ebeMultiply(RealVector v) | 11 | 4 |
@@ -115,12 +110,9 @@
 |   M106  | double nextAfter(double d, double direction) | 38 | 6 |
 |   M107  | void checkTheoreticalMinCost(double rms) | 4 | 1 |
 |   M108  | double[][] getCovariances() | 28 | 7 |
-|   M109  | double integrate(final FirstOrderDifferentialEquations equations,
-                            <br/>final double t0, final double[] y0,
-                            <br/>final double t, final double[] y) | 158 | 45 |
+|   M109  | double integrate(final FirstOrderDifferentialEquations equations, <br/>final double t0, final double[] y0, <br/>final double t, final double[] y) | 158 | 45 |
 |   M110  | double getPct(Comparable<?> v) | 6 | 2 |
-|   M111  | List<Cluster<T>> cluster(final Collection<T> points,
-                                    <br/>final int k, final int maxIterations) | 25 | 7 |
+|   M111  | List<Cluster<T>> cluster(final Collection<T> points, <br/>final int k, final int maxIterations) | 25 | 7 |
 |   M112  | EigenDecompositionImpl(final double[] main, double[] secondary,<br/>final double splitTolerance) | 18 | 3 |
 |   M113  | RealVector subtract(RealVector v) | 12 | 4 |
 |   M114  | double inverseCumulativeProbability(final double p) | 51 | 12 |
@@ -148,8 +140,7 @@
 |   M136  | void traverseFunction(Node n, Node parent) | 35 | 13 |
 |   M137  | String toStringHelper(boolean forAnnotations) | 43 | 14 |
 |   M138  | void visit(NodeTraversal t, Node n, Node parent) | 42 | 22 |
-|   M139  | FunctionTypeBuilder inferFromOverriddenFunction(
-      @Nullable FunctionType oldType, @Nullable Node paramsParent) | 54 | 21 |
+|   M139  | FunctionTypeBuilder inferFromOverriddenFunction<br/>(@Nullable FunctionType oldType, @Nullable Node paramsParent) | 54 | 21 |
 |   M140  | void add(String newcode) | 21 | 5 |
 |   M141  | Node tryFoldArrayJoin(Node n) | 109 | 47 |
 |   M142  | String getLine(int lineNumber) | 41 | 5 |
@@ -159,11 +150,7 @@
 |   M146  | boolean isPrototypePropertyAssign(Node assign) | 20 | 11 |
 |   M147  | Node parseBasicTypeExpression(JsDocToken token) | 25 | 19 |
 |   M148  | void checkPropertyVisibility(NodeTraversal t, Node getprop, Node parent) | 93 | 26 |
-|   M149  | String strEscape(String s, char quote,
-                          <br/>String doublequoteEscape,
-                          <br/>String singlequoteEscape,
-                          <br/>String backslashEscape,
-                          <br/>CharsetEncoder outputCharsetEncoder) | 69 | 11 |
+|   M149  | String strEscape(String s, char quote, <br/>String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 69 | 11 |
 |   M150  | int parseArguments(Parameters params) | 19  | 7 |
 |   M151  | Node tryRemoveUnconditionalBranching(Node n) | 62 | 22 |
 |   M152  | boolean isFoldableExpressBlock(Node n) | 19 | 3 |
@@ -192,8 +179,4 @@
 |   M175  | double doOptimize() | 3 | 1 |
 |   M176  | double solve(final UnivariateRealFunction f, final double min, final double max, final double initial) | 42 | 8 |
 |   M177  | JSType getDeclaredType(String sourceName, JSDocInfo info, <br/>Node lValue, @Nullable Node rValue) | 50 | 22 |
-|   M178  | String strEscape(String s, char quote,
-                          <br/>String doublequoteEscape,
-                          <br/>String singlequoteEscape,
-                          <br/>String backslashEscape,
-                          <br/>CharsetEncoder outputCharsetEncoder) | 70 | 21 |
+|   M178  | String strEscape(String s, char quote, <br/>String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 70 | 21 |

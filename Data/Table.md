@@ -179,4 +179,4 @@
 |   M175  | double doOptimize() | 3 | 1 |
 |   M176  | double solve(final UnivariateRealFunction f, final double min, final double max, final double initial) | 42 | 8 |
 |   M177  | JSType getDeclaredType(String sourceName, JSDocInfo info, <br/>Node lValue, @Nullable Node rValue) | 50 | 22 |
-|   M178  | String strEscape(String s, char quote, String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 70 | 21 |
+|   M178  | String strEscape(String s, char quote, String doublequoteEscape, <br/>String singlequoteEscape, String backslashEscape, CharsetEncoder outputCharsetEncoder) | 70 | 21 |

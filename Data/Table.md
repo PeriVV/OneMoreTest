@@ -110,7 +110,7 @@
 |   M106  | double nextAfter(double d, double direction) | 38 | 6 |
 |   M107  | void checkTheoreticalMinCost(double rms) | 4 | 1 |
 |   M108  | double[][] getCovariances() | 28 | 7 |
-|   M109  | double integrate(final FirstOrderDifferentialEquations equations, <br/>final double t0, final double[] y0, <br/>final double t, final double[] y) | 158 | 45 |
+|   M109  | double integrate(final FirstOrderDifferentialEquations equations, <br/>final double t0, final double[] y0, final double t, final double[] y) | 158 | 45 |
 |   M110  | double getPct(Comparable<?> v) | 6 | 2 |
 |   M111  | List<Cluster<T>> cluster(final Collection<T> points, <br/>final int k, final int maxIterations) | 25 | 7 |
 |   M112  | EigenDecompositionImpl(final double[] main, double[] secondary,<br/>final double splitTolerance) | 18 | 3 |
@@ -150,7 +150,7 @@
 |   M146  | boolean isPrototypePropertyAssign(Node assign) | 20 | 11 |
 |   M147  | Node parseBasicTypeExpression(JsDocToken token) | 25 | 19 |
 |   M148  | void checkPropertyVisibility(NodeTraversal t, Node getprop, Node parent) | 93 | 26 |
-|   M149  | String strEscape(String s, char quote, <br/>String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 69 | 11 |
+|   M149  | String strEscape(String s, char quote, String doublequoteEscape, <br/>String singlequoteEscape, String backslashEscape, CharsetEncoder outputCharsetEncoder) | 69 | 11 |
 |   M150  | int parseArguments(Parameters params) | 19  | 7 |
 |   M151  | Node tryRemoveUnconditionalBranching(Node n) | 62 | 22 |
 |   M152  | boolean isFoldableExpressBlock(Node n) | 19 | 3 |
@@ -179,4 +179,4 @@
 |   M175  | double doOptimize() | 3 | 1 |
 |   M176  | double solve(final UnivariateRealFunction f, final double min, final double max, final double initial) | 42 | 8 |
 |   M177  | JSType getDeclaredType(String sourceName, JSDocInfo info, <br/>Node lValue, @Nullable Node rValue) | 50 | 22 |
-|   M178  | String strEscape(String s, char quote, <br/>String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 70 | 21 |
+|   M178  | String strEscape(String s, char quote, String doublequoteEscape, <br/>String singlequoteEscape, <br/>String backslashEscape, <br/>CharsetEncoder outputCharsetEncoder) | 70 | 21 |

@@ -105,13 +105,13 @@
 |   M101  | void removeUnreferencedFunctionArgs(Scope fnScope) | 29 | 9 |
 |   M102  | Node tryFoldSimpleFunctionCall(Node n) | 22 | 14 |
 |   M103  | Node tryFoldArrayAccess(Node n, Node left, Node right) | 50 | 11 |
-|   M104  | void emitOptionalModuleExportsOverride(Node script, String moduleName) | 10 | 10 |
+|   M104  | void emitOptionalModuleExportsOverride<br/>(Node script, String moduleName) | 10 | 10 |
 |   M105  | Node tryFinally(Node tryBody, Node finallyBody) | 5 | 6 |
 |   M106  | void traverseFunction(Node n, Node parent) | 35 | 13 |
 |   M107  | void visit(NodeTraversal t, Node n, Node parent) | 42 | 22 |
 |   M108  | FunctionTypeBuilder inferFromOverriddenFunction<br/>(@Nullable FunctionType oldType, @Nullable Node paramsParent) | 54 | 21 |
 |   M109  | void add(String newcode) | 21 | 5 |
-|   M110  | String extractClassNameIfGoog(Node node, Node parent, String functionName) | 16 | 7 |
+|   M110  | String extractClassNameIfGoog(Node node, <br/>Node parent, String functionName) | 16 | 7 |
 |   M111  | computeGenKill(Node n, BitSet gen, BitSet kill, boolean conditional) | 85 | 35 |
 |   M112  | boolean isPrototypePropertyAssign(Node assign) | 20 | 11 |
 |   M113  | Node parseBasicTypeExpression(JsDocToken token) | 25 | 19 |
@@ -177,6 +177,6 @@
 |   M173  | double pow(double x, double y) | 158 | 4 |
 |   M174  | double getMean() | 3 | 1 |
 |   M175  | double doOptimize() | 3 | 1 |
-|   M176  | double solve(final UnivariateRealFunction f, final double min, final double max, final double initial) | 42 | 8 |
+|   M176  | double solve(final UnivariateRealFunction f, final double min, <br/>final double max, final double initial) | 42 | 8 |
 |   M177  | JSType getDeclaredType(String sourceName, JSDocInfo info, <br/>Node lValue, @Nullable Node rValue) | 50 | 22 |
 |   M178  | String strEscape(String s, char quote, String doublequoteEscape, <br/>String singlequoteEscape, String backslashEscape, CharsetEncoder outputCharsetEncoder) | 70 | 21 |

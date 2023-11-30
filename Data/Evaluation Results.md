@@ -1,4 +1,4 @@
-| **ID** | **Error Rate** | **OneMoreTest** | **Random Selection** | **Coverage-based Selection** | **Invariant-based Selection** |
+| **ID** | **Error Rate** | **OneMoreTest** | | | **Random Selection** | | | **Coverage-based Selection** | | | **Invariant-based Selection** |
 |--------|-----------------|------------------|---|---|-----------------------|---|---|-----------------------------|---|---|-----------------------------|
 |        |                 | **Top1**         | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** |
 | M1     | 0.99%           | 1               | 10        | 100       | 0.01    | 0.11      | 1.05      | 0.02    | 0.17      | 0.95       | 0.02    | 0.11      | 1.01      |

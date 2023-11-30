@@ -1,3 +1,6 @@
+
+## Evaluation Results
+
 <table border="1">
   <tr>
     <th rowspan="2">ID</th>
@@ -29,17 +32,3 @@
   </tr>
   <!-- Add more rows as needed -->
 </table>
-
-<p><strong>Precision@k:</strong></p>
-<ul>
-  <li>Top1: 78.4%</li>
-  <li>Top10: 73.7%</li>
-  <li>Top100: 74.3%</li>
-</ul>
-
-<p><strong>Recall@k:</strong></p>
-<ul>
-  <li>Top1: 74.1%</li>
-  <li>Top10: 75.9%</li>
-  <li>Top100: 77.8%</li>
-</ul>

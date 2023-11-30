@@ -1,8 +1,45 @@
-| **ID** | **Error Rate** | **OneMoreTest** | | | **Random Selection** | | | **Coverage-based Selection** | | | **Invariant-based Selection** |
-|--------|-----------------|------------------|---|---|-----------------------|---|---|-----------------------------|---|---|-----------------------------|
-|        |                 | **Top1**         | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** | **Top1** | **Top10** | **Top100** |
-| M1     | 0.99%           | 1               | 10        | 100       | 0.01    | 0.11      | 1.05      | 0.02    | 0.17      | 0.95       | 0.02    | 0.11      | 1.01      |
-| M2     | 2.40%           | 1               | 10        | 100       | 0.01    | 0.31      | 2.77      | 0.03    | 0.24      | 2.64       | 1       | 10        | 100       |
-| ...    | ...             | ...             | ...       | ...       | ...     | ...       | ...       | ...     | ...       | ...        | ...     | ...       | ...       |
-| M53    | 28.93%          | Non-convergent  |           |           | 0.12    | 1.21      | 11.57     | 0.22    | 1.38      | 10.62     | 1.26    | 5.72      | 36.24     |
-| M54    | 2.73%           | Non-convergent  |           |           | 0.05    | 0.23      | 2.40      | 0.02    | 0.25      | 2.36      | 0.02    | 0.30      | 2.73      |
+<table border="1">
+  <tr>
+    <th rowspan="2">ID</th>
+    <th rowspan="2">Error Rate</th>
+    <th colspan="3">OneMoreTest</th>
+    <th colspan="3">Random Selection</th>
+    <th colspan="3">Coverage-based Selection</th>
+    <th colspan="3">Invariant-based Selection</th>
+  </tr>
+  <tr>
+    <th>Top1</th>
+    <th>Top10</th>
+    <th>Top100</th>
+    <th>Top1</th>
+    <th>Top10</th>
+    <th>Top100</th>
+    <th>Top1</th>
+    <th>Top10</th>
+    <th>Top100</th>
+    <th>Top1</th>
+    <th>Top10</th>
+    <th>Top100</th>
+  </tr>
+  <tr>
+    <td>M1</td><td>0.99%</td><td>1</td><td>10</td><td>100</td><td>0.01</td><td>0.11</td><td>1.05</td><td>0.02</td><td>0.17</td><td>0.95</td><td>0.02</td><td>0.11</td><td>1.01</td>
+  </tr>
+  <tr>
+    <td>M2</td><td>2.40%</td><td>1</td><td>10</td><td>100</td><td>0.01</td><td>0.31</td><td>2.77</td><td>0.03</td><td>0.24</td><td>2.64</td><td>1</td><td>10</td><td>100</td>
+  </tr>
+  <!-- Add more rows as needed -->
+</table>
+
+<p><strong>Precision@k:</strong></p>
+<ul>
+  <li>Top1: 78.4%</li>
+  <li>Top10: 73.7%</li>
+  <li>Top100: 74.3%</li>
+</ul>
+
+<p><strong>Recall@k:</strong></p>
+<ul>
+  <li>Top1: 74.1%</li>
+  <li>Top10: 75.9%</li>
+  <li>Top100: 77.8%</li>
+</ul>

@@ -162,7 +162,7 @@
 |   M158  | CompilerOptions createOptions() | 56 | 17 |
 |   M159  | void exitScope(NodeTraversal t) | 13 | 5 |
 |   M160  | Node parseContextTypeExpression(JsDocToken token) | 3 | 1 |
-|   M161  | boolean inferTemplatedTypesForCall(<br/>Node n, FunctionType fnType) | 27 | 11 |
+|   M161  | boolean inferTemplatedTypesForCall<br/>(Node n, FunctionType fnType) | 27 | 11 |
 |   M162  | void recordAssignment(NodeTraversal t, Node n, Node recordNode) | 30 | 9 |
 |   M163  | Node inlineReturnValue(Node callNode, Node fnNode) | 31 | 11 |
 |   M164  | Node inlineReturnValue(Node callNode, Node fnNode) | 31 | 15 |

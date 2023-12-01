@@ -1,7 +1,7 @@
 
 ## Evaluation Results
 
-<table border="1">
+<table>
   <tr>
     <th rowspan="2">ID</th>
     <th rowspan="2">Error Rate</th>

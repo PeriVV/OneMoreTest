@@ -576,34 +576,34 @@
     <td>0.07</td> <td>0.78</td> <td>7.87</td> <td>0.28</td> <td>2.83</td> <td>30.58</td> <td>0.24</td> <td>2.29</td> <td>19.86</td>
 </tr>
 <tr>
-        <th colspan="1"><b>Precision@k</b></th>
-        <td>80.59%</td>
-        <td>82.52%</td>
-        <td>80.64%</td>
-        <td>21.07%</td>
-        <td>21.19%</td>
-        <td>21.67%</td>
-        <td>28.30%</td>
-        <td>33.19%</td>
-        <td>31.03%</td>
-        <td>44.33%</td>
-        <td>44.20%</td>
-        <td>42.10%</td>
+        <th colspan="2"><b>Precision@k</b></th>
+        <th>80.59%</th>
+        <th>82.52%</th>
+        <th>80.64%</th>
+        <th>21.07%</th>
+        <th>21.19%</th>
+        <th>21.67%</th>
+        <th>28.30%</th>
+        <th>33.19%</th>
+        <th>31.03%</th>
+        <th>44.33%</th>
+        <th>44.20%</th>
+        <th>42.10%</th>
     </tr>
     <tr>
-        <th colspan="1"><b>Recall@k</b></th>
-        <td>76.97%</td>
-        <td>83.70%</td>
-        <td>88.76%</td>
-        <td>21.07%</td>
-        <td>71.12%</td>
-        <td>97.52%</td>
-        <td>28.30%</td>
-        <td>91.94%</td>
-        <td>98.79%</td>
-        <td>44.33%</td>
-        <td>89.98%</td>
-        <td>97.07%</td>
+        <th colspan="2"><b>Recall@k</b></th>
+        <th>76.97%</th>
+        <th>83.70%</th>
+        <th>88.76%</th>
+        <th>21.07%</th>
+        <th>71.12%</th>
+        <th>97.52%</th>
+        <th>28.30%</th>
+        <th>91.94%</th>
+        <th>98.79%</th>
+        <th>44.33%</th>
+        <th>89.98%</th>
+        <th>97.07%</th>
     </tr>
   <!-- Add more rows as needed -->
 </table>

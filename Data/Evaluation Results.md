@@ -535,31 +535,52 @@
     <td>M170</td> <td>45.40%</td> <td>0</td> <td>0</td> <td>0</td> <td>0.41</td> <td>4.46</td> <td>45.15</td> <td>0.23</td> <td>4.12</td> <td>48.26</td> <td>0.24</td> <td>4.23</td> <td>49.36</td>
 </tr>
 <tr>
-        <th>M171</th>
-        <th>29.08%</th>
-        <th colspan="3">Non-convergent</th>
+        <td>M171</td>
+        <td>29.08%</td>
+        <td colspan="3">Non-convergent</td>
         <td>0.34</td> <td>2.97</td> <td>30.31</td> <td>0.19</td> <td>5.02</td> <td>33.42</td> <td>0.2</td> <td>5.13</td> <td>34.52</td>
 </tr>
 <tr>
-    <td>M172</td> <td>30%</td> <td>0</td> <td>3</td> <td>18</td> <td>0.1</td> <td>1</td> <td>10</td> <td>0.27</td> <td>3.05</td> <td>13.11</td> <td>0.28</td> <td>3.16</td> <td>14.21</td>
+    <td>M172</td> 
+    <td>30%</td> 
+    <td colspan="3">Non-convergent</td>
+     <td>0.1</td> <td>1</td> <td>10</td> <td>0.27</td> <td>3.05</td> <td>13.11</td> <td>0.28</td> <td>3.16</td> <td>14.21</td>
 </tr>
 <tr>
-    <td>M173</td> <td>0.97%</td> <td>0</td> <td>0</td> <td>1</td> <td>0.01</td> <td>0.08</td> <td>1.02</td> <td>0.22</td> <td>2.13</td> <td>4.13</td> <td>0.23</td> <td>2.24</td> <td>5.23</td>
+    <td>M173</td> 
+    <td>0.97%</td> 
+    <td colspan="3">Non-convergent</td>
+    <td>0.01</td> <td>0.08</td> <td>1.02</td> <td>0.22</td> <td>2.13</td> <td>4.13</td> <td>0.23</td> <td>2.24</td> <td>5.23</td>
 </tr>
 <tr>
-    <td>M174</td> <td>40.26%</td> <td>1</td> <td>10</td> <td>100</td> <td>0.36</td> <td>3.86</td> <td>39.68</td> <td>0.26</td> <td>5.91</td> <td>42.79</td> <td>0.27</td> <td>6.02</td> <td>43.89</td>
+    <td>M174</td> 
+    <td>40.26%</td> 
+    <td colspan="3">Non-convergent</td>
+    <td>0.36</td> <td>3.86</td> <td>39.68</td> <td>0.26</td> <td>5.91</td> <td>42.79</td> <td>0.27</td> <td>6.02</td> <td>43.89</td>
 </tr>
 <tr>
-    <td>M175</td> <td>97.05%</td> <td>1</td> <td>10</td> <td>100</td> <td>0</td> <td>0.09</td> <td>0.97</td> <td>0.21</td> <td>2.14</td> <td>4.08</td> <td>1</td> <td>10</td> <td>100</td>
+    <td>M175</td> 
+    <td>97.05%</td> 
+    <td colspan="3">Non-convergent</td>
+    <td>0</td> <td>0.09</td> <td>0.97</td> <td>0.21</td> <td>2.14</td> <td>4.08</td> <td>1</td> <td>10</td> <td>100</td>
 </tr>
 <tr>
-    <td>M176</td> <td>53%</td> <td>1</td> <td>10</td> <td>100</td> <td>0.97</td> <td>9.7</td> <td>97</td> <td>0.16</td> <td>3.85</td> <td>40.84</td> <td>0.51</td> <td>4.93</td> <td>49.76</td>
+    <td>M176</td> 
+    <td>53%</td> 
+    <td colspan="3">Non-convergent</td>
+    <td>0.97</td> <td>9.7</td> <td>97</td> <td>0.16</td> <td>3.85</td> <td>40.84</td> <td>0.51</td> <td>4.93</td> <td>49.76</td>
 </tr>
 <tr>
-    <td>M177</td> <td>10.00%</td> <td>1</td> <td>10</td> <td>100</td> <td>0.1</td> <td>1</td> <td>10</td> <td>0.31</td> <td>3.05</td> <td>13.11</td> <td>0</td> <td>0</td> <td>0</td>
+    <td>M177</td> 
+    <td>10.00%</td> 
+    <td colspan="3">Non-convergent</td>
+    <td>0.1</td> <td>1</td> <td>10</td> <td>0.31</td> <td>3.05</td> <td>13.11</td> <td>0</td> <td>0</td> <td>0</td>
 </tr>
 <tr>
-    <td>M178</td> <td>7.87%</td> <td>1</td> <td>8</td> <td>84</td> <td>0.07</td> <td>0.78</td> <td>7.87</td> <td>0.28</td> <td>2.83</td> <td>30.58</td> <td>0.24</td> <td>2.29</td> <td>19.86</td>
+    <td>M178</td> 
+    <td>7.87%</td> 
+    <td colspan="3">Non-convergent</td>
+     <td>0.07</td> <td>0.78</td> <td>7.87</td> <td>0.28</td> <td>2.83</td> <td>30.58</td> <td>0.24</td> <td>2.29</td> <td>19.86</td>
 </tr>
 
   <!-- Add more rows as needed -->

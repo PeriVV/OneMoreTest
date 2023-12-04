@@ -1,7 +1,7 @@
 
 ## Evaluation Results
 
-The evaluation results are presented in the first five columns of Table~\ref{tab:Comparison}. The second column specifies the error rates of the selected methods.  Columns 3-5  specify how many testing items ranked in the top k (k=1,  10, and 100, respectively) by \textit{OneMoreTest} are fault-revealing.  The last two rows present the precision and recall of the evaluated approaches. 
+The evaluation results are presented in the first five columns of Table. The second column specifies the error rates of the selected methods.  Columns 3-5  specify how many testing items ranked in the top k (k=1,  10, and 100, respectively) by OneMoreTest are fault-revealing.  The last two rows present the precision and recall of the evaluated approaches. 
 <table>
   <tr>
     <th rowspan="2">ID</th>

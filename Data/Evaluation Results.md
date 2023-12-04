@@ -7,8 +7,8 @@
     <th rowspan="2">Error Rate</th>
     <th colspan="3">OneMoreTest</th>
     <th colspan="3">Random Selection</th>
-    <th colspan="3">Coverage-based Selection</th>
-    <th colspan="3">Invariant-based Selection</th>
+    <th colspan="4">Coverage-based Selection</th>
+    <th colspan="4">Invariant-based Selection</th>
   </tr>
   <tr>
     <th>Top1</th>

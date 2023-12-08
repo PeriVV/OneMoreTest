@@ -5,7 +5,7 @@
 |   M1   | void setMaximumItemAge(long periods) | 7 | 2 |
 |   M2   | TimeSeries createCopy(int start, int end) | 24 | 7 |
 |   M3   | XYDataItem addOrUpdate(Number x, Number y) | 36 | 8 |
-|   M4   | void updateBounds(TimePeriod period, int index) | 78 | 29 |
+|   M4   | void updateBounds(TimePeriod period, int index) | 78 | 19 |
 |   M5   | Size2D arrange(Graphics2D g2, <br/>RectangleConstraint constraint) | 3 | 1 |
 |   M6   | void setCategoryKeys(Comparable[] categoryKeys) | 18 | 4 |
 |   M7   | void addValue(double value, Comparable rowKey, <br/>Comparable columnKey) | 4 | 1 |
@@ -89,7 +89,7 @@
 |   M85  | UnivariateRealPointValuePair[] getOptima() | 5 | 2 |
 |   M86  | double nextAfter(double d, double direction) | 38 | 6 |
 |   M87  | double[][] getCovariances() | 28 | 7 |
-|   M88  | double integrate(final FirstOrderDifferentialEquations equations, <br/>final double t0, final double[] y0, final double t, final double[] y) | 158 | 45 |
+|   M88  | double integrate(final FirstOrderDifferentialEquations equations, <br/>final double t0, final double[] y0, final double t, final double[] y) | 158 | 25 |
 |   M89  | double getPct(Comparable<?> v) | 6 | 2 |
 |   M90  | EigenDecompositionImpl(final double[] main, double[] secondary,<br/>final double splitTolerance) | 18 | 3 |
 |   M91  | RealVector subtract(RealVector v) | 12 | 4 |
@@ -119,7 +119,7 @@
 |   M115  | Node tryRemoveUnconditionalBranching(Node n) | 62 | 22 |
 |   M116  | VariableLiveness isVariableReadBeforeKill(Node n, String variable) | 11 | 4 |
 |   M117  | boolean shouldTraverse(NodeTraversal t, Node n, Node parent) | 64 | 20 |
-|   M118  | void tryFoldStringJoin(NodeTraversal t, Node n, <br/>Node left, Node right, Node parent) | 88 | 40 |
+|   M118  | void tryFoldStringJoin(NodeTraversal t, Node n, <br/>Node left, Node right, Node parent) | 88 | 14 |
 |   M119  | void exitScope(NodeTraversal t) | 13 | 5 |
 |   M120  | Node parseContextTypeExpression(JsDocToken token) | 3 | 1 |
 |   M121  | boolean inferTemplatedTypesForCall(<br/>Node n, FunctionType fnType) | 27 | 11 |
@@ -165,7 +165,7 @@
 |   M161  | DateTimeZone forOffsetHoursMinutes <br/> (int hoursOffset, int minutesOffset) | 20 | 4 |
 |   M162  | PeriodFormatter standard() | 22 | 12 |
 |   M163  | void setTimeZone(TimeZone zone) | 3 | 1 |
-|   M164  | Number createNumber(String str) | 150 | 23 |
+|   M164  | Number createNumber(String str) | 150 | 18 |
 |   M165  | String join(Object[] array, char separator, <br/>int startIndex, int endIndex) | 19 | 5 |
 |   M166  | float toJavaVersionInt(String version) | 3 | 2 |
 |   M167  | long getTime() | 11 | 2 |

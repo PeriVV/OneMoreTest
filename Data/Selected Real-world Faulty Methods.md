@@ -6,11 +6,11 @@
 |   M2   | TimeSeries createCopy(int start, int end) | 24 | 7 |
 |   M3   | XYDataItem addOrUpdate(Number x, Number y) | 36 | 8 |
 |   M4   | void updateBounds(TimePeriod period, int index) | 78 | 19 |
-|   M5   | Size2D arrange(Graphics2D g2, <br/>RectangleConstraint constraint) | 3 | 1 |
+|   M5   | Size2D arrangeFF(BlockContainer container, Graphics2D g2, <br/> RectangleConstraint constraint) | 67 | 21 |
 |   M6   | void setCategoryKeys(Comparable[] categoryKeys) | 18 | 4 |
 |   M7   | void addValue(double value, Comparable rowKey, <br/>Comparable columnKey) | 4 | 1 |
-|   M8   | Paint getOutlinePaint() | 3 | 3 |
-|   M9   | Range getRangeBounds(boolean includeInterval) | 3 | 0 |
+|   M8   | ValueMarker(double value, Paint paint, Stroke stroke, <br/>Paint outlinePaint, Stroke outlineStroke, float alpha) | 4 | 0 |
+|   M9   | void updateBounds() | 3 | 0 |
 |   M10  | void removeColumn(Comparable columnKey) | 12 | 6 |
 |   M11  | void setDrawLines(boolean draw) | 5 | 2 |
 |   M12  | void addYears(int) | 5  | 4 |

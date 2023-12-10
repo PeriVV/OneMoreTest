@@ -145,7 +145,7 @@
 |   M141  | String unescape(String str) | 60 | 14 |
 |   M142  | double density(double x) | 11 | 4 |
 |   M143  | FastDateFormat getInstance(String pattern, Locale locale) | 3 | 1 |
-|   M144  | int getLegendItems() | 32 | 11 |
+|   M144  | LegendItemCollection getLegendItems() | 32 | 11 |
 |   M145  | Predicate<Node>() | 29 | 6 |
 |   M146  | void inferPropertyTypesToMatchConstraint<br/>(JSType type, JSType constraint) | 24 | 12 |
 |   M147  | boolean mayThrowException(Node n) | 20 | 5 |

@@ -47,7 +47,7 @@
 |   M43  | FastDateFormat getInstance(String pattern, Locale locale) | 3 | 1 |
 |   M44  | int translate(final CharSequence input, final int index, final Writer out) | 32 | 7 |
 |   M45  | String translate(CharSequence input) | 12 | 5 |
-|   M46  | Number createNumber(String str) | 147  | 19 |
+|   M46  | boolean isNumber(String str) | 94  | 2 |
 |   M47  | String format(Calendar calendar) | 3 | 3 |
 |   M48  | String replaceEach(String text, <br/>String[] searchList, String[] replacementList) | 3 | 1 |
 |   M49  | String getShortClassName(Class<?> cls) | 6 | 2 |

@@ -35,7 +35,7 @@
 |   M31  | Period parsePeriod(String text) | 4  | 3 |
 |   M32  | Number createNumber(String str) | 157 | 21 |
 |   M33  | String escapeCsv(String input) | 3 | 1 |
-|   M34  | Number createNumber(String str) | 153 | 16 |
+|   M34  | void appendTo(StringBuffer buffer, Calendar calendar) | 7 | 6 |
 |   M35  | void setTimeZone(TimeZone zone) | 3 | 1 |
 |   M36  | Date parse(String source) | 3 | 1 |
 |   M37  | String random(int count, int start, int end, <br/>boolean letters, boolean numbers) | 3 | 1 |

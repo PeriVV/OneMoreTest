@@ -45,7 +45,7 @@
 |   M41  | boolean isSameLocalTime(Calendar cal1, Calendar cal2) | 12 | 4 |
 |   M42  | Fraction getReducedFraction(int numerator, int denominator) | 25  | 3 |
 |   M43  | FastDateFormat getInstance(String pattern, Locale locale) | 3 | 1 |
-|   M44  | Number createNumber(String str) | 150 | 16 |
+|   M44  | int translate(final CharSequence input, final int index, final Writer out) | 32 | 7 |
 |   M45  | String translate(CharSequence input) | 12 | 5 |
 |   M46  | Number createNumber(String str) | 147  | 19 |
 |   M47  | String format(Calendar calendar) | 3 | 3 |

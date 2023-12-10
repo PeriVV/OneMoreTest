@@ -55,7 +55,7 @@
 |   M51  | NumberUtils() | 3 | 1 |
 |   M52  | String abbreviate(String str, int lower, <br/>int upper, String appendToEnd) | 38 | 7 |
 |   M53  | String escapeJava(String str) | 3 | 1 |
-|   M54  | Number createNumber(String str) | 150 | 23 |
+|   M54  | EqualsBuilder append(Object lhs, Object rhs) | 42 | 13 |
 |   M55  | Fraction reduce() | 9 | 3 |
 |   M56  | Date round(Date date, int field) | 8 | 5 |
 |   M57  | Locale toLocale(String str) | 36 | 10 |

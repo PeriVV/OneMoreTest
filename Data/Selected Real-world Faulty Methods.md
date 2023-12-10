@@ -133,9 +133,9 @@
 |   M129  | double[] getPoint() | 3 | 1 |
 |   M130  | String getRemainingJSDocLine() | 4 | 1 |
 |   M131  | int parseArguments(Parameters params) | 19  | 7 |
-|   M132  | boolean isNumber(String str) | 102 | 2 |
+|   M132  | DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) | 102 | 2 |
 |   M133  | void addIdentifier(String identifier) | 3 | 1 |
-|   M134  | String generateToolTipFragment(String toolTipText) | 4 | 0 |
+|   M134  | String generateToolTipFragment(String toolTipText) | 20 | 7 |
 |   M135  | static Class<?>[] toClass(Object[] array) | 11 | 0 |
 |   M136  | double inverseCumulativeProbability(final double p) | 51 | 12 |
 |   M137  | String format(JSError error, boolean warning) | 45 | 22 |

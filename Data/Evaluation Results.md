@@ -228,7 +228,7 @@ The evaluation results are presented in the first five columns of Table. The sec
     <td>M67</td><td>29.35%</td><td>1</td><td>10</td><td>100</td><td>0.22</td><td>2.95</td><td>29.35</td><td>0.22</td><td>3.51</td><td>33.4</td><td>0.43</td><td>1.67</td><td>60.29</td>
 </tr>
 <tr>
-    <td>M68</td><td>40.26%</td><td>1</td><td>10</td><td>100</td><td>0.36</td><td>3.86</td><td>39.68</td><td>0.36</td><td>4.42</td><td>43.73</td><td>0.57</td><td>3.72</td><td>70.62</td>
+    <td>M68</td><td>32.26%</td><td>1</td><td>10</td><td>100</td><td>0.36</td><td>3.86</td><td>39.68</td><td>0.36</td><td>4.42</td><td>43.73</td><td>0.57</td><td>3.72</td><td>70.62</td>
 </tr>
 <tr>
     <td>M69</td><td>0.99%</td><td>1</td><td>10</td><td>100</td><td>0.01</td><td>0.07</td><td>0.85</td><td>0.03</td><td>1.1</td><td>10.86</td><td>0.24</td><td>4.63</td><td>37.75</td>

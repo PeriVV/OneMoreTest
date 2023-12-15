@@ -69,9 +69,17 @@ def load_array(filename):
     with open(filename, 'r') as f:
         line = f.readline()
         while line:
-            words = line.split()
-            data = [float(x) if x != 'NaN' else np.nan if x != 'Infinity' else np.inf for x in words]
-            dataSet.append(data)
+            # Remove '$' characters from the line
+            line = line.replace('$', '')
+            if line.strip() == "ERROR":
+                dataSet.append(np.finfo(float).max)  # 将"null"值替换为0，可以根据需要进行修改
+            elif line.strip() == "":
+                dataSet.append([np.finfo(float).min])  # Treat empty line as NaN
+            else:
+                words = line.split()
+                data = [float(x) if x != 'NaN' else np.finfo(float).min if x != 'Infinity' else np.finfo(float).max for
+                        x in words]
+                dataSet.append(data)
             line = f.readline()
 
     # normalization
@@ -140,21 +148,34 @@ def load_data(filename):
         return dataSet, seq_len, Max, Min
 
 
+def write_data_to_file(dataSet, output_file):
+    with open(output_file, 'w') as f:
+        for data in dataSet:
+            line = " ".join(str(x) for x in data)
+            f.write(line + "\n")
+
+
 def load_sequence(filename):
     dataSet = []
 
     with open(filename, 'r') as f:
         line = f.readline().strip()
         while line:
-            data = [ord(x) for x in list(line)]
-            dataSet.append(data)
+            # Check if the line contains 'Infinity$'
+            if 'Infinity$' in line or "ERROR$" in line:
+                # Encode 'Infinity$' as a large positive integer
+                encoded_line = [np.finfo(float).max]
+            else:
+                # Encode other characters as their ASCII codes
+                encoded_line = [ord(x) for x in line]
+            dataSet.append(encoded_line)
             line = f.readline().strip()
 
     # normalization
     dataSet, Max, Min = normalization_array(dataSet)
 
     # padding
-    max_len = max(len(x) for x in dataSet)
+    max_len = len(max(dataSet, key=lambda x: len(x)))
     dataSet = padding_array(dataSet, max_len)
     # mask
     seq_len = [len(x) for x in dataSet]
@@ -164,6 +185,13 @@ def load_sequence(filename):
     return dataSet, seq_len, Max, Min
 
 
+def write_data_to_file(dataSet, output_file):
+    with open(output_file, 'w') as f:
+        for data in dataSet:
+            line = " ".join(str(x) for x in data)
+            f.write(line + "\n")
+
+
 def load_sequence_split(filename, spliter):
     dataSet = []
     with open(filename, 'r') as f:
@@ -171,8 +199,14 @@ def load_sequence_split(filename, spliter):
         lst = line.split(spliter)
         line = ' '.join(lst)
         while line:
-            data = [ord(x) for x in list(line)]
-            dataSet.append(data)
+            # Check if the line contains 'Infinity$'
+            if 'Infinity$' in line or "ERROR$" in line:
+                # Encode 'Infinity$' as a large positive integer
+                encoded_line = [10000000000]
+            else:
+                # Encode other characters as their ASCII codes
+                encoded_line = [ord(x) for x in line]
+            dataSet.append(encoded_line)
             line = f.readline().strip()
 
     # normalization
@@ -432,9 +466,11 @@ def load_classification(filename):
         line = f.readline()
         while line:
             data = []
-            if line == 'true\n':
+            if line == 'true$\n':
                 data.append(1)
-            else:
+            elif line == 'ERROR$\n':
+                data.append(float('inf'))  # 添加正无穷大
+            elif line == 'false$\n':
                 data.append(0)
             dataSet.append(data)
             line = f.readline()
@@ -452,18 +488,18 @@ def load_classification(filename):
 
 
 def load_M1_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
-    return X, seq_len_X, max_x, min_x
+    Y, seq_len_Y, max_y, min_y = load_array(filename)
+    return Y, seq_len_Y, max_y, min_y
 
 
 def load_M1_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
+    Y, seq_len_Y, max_y, min_y = load_classification(filename)
     return Y, seq_len_Y, max_y, min_y
 
 
 def load_M2_before(filename):
-    X, seq_len_X, max_x, min_x = load_array(filename)
-    return X, seq_len_X, max_x, min_x
+    Y, seq_len_Y, max_y, min_y = load_array_split(filename, '$')
+    return Y, seq_len_Y, max_y, min_y
 
 
 def load_M2_after(filename):
@@ -482,7 +518,7 @@ def load_M3_after(filename):
 
 
 def load_M4_before(filename):
-    X, seq_len_X, max_x, min_x = load_data_time3(filename)
+    X, seq_len_X, max_x, min_x = load_array(filename)
     return X, seq_len_X, max_x, min_x
 
 
@@ -512,7 +548,7 @@ def load_M6_after(filename):
 
 
 def load_M7_before(filename):
-    X, seq_len_X, max_x, min_x = load_array_split(filename, '#')
+    X, seq_len_X, max_x, min_x = load_data_time3(filename)
     return X, seq_len_X, max_x, min_x
 
 
@@ -522,7 +558,7 @@ def load_M7_after(filename):
 
 
 def load_M8_before(filename):
-    X, seq_len_X, max_x, min_x = load_data_time3(filename)
+    X, seq_len_X, max_x, min_x = load_array_split(filename, '#')
     return X, seq_len_X, max_x, min_x
 
 
@@ -552,579 +588,350 @@ def load_M10_after(filename):
 
 
 def load_M11_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
+    X, seq_len_X, max_x, min_x = load_sequence_split(filename, '$')
     return X, seq_len_X, max_x, min_x
-
-
-def load_M11_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M12_before(filename):
-    X, seq_len_X, max_x, min_x = load_array(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M12_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M13_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M13_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M14_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M14_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M15_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M15_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M16_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M16_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M17_before(filename):
-    X, seq_len_X, max_x, min_x = load_data_mockito6(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M17_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M18_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M18_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M19_before(filename):
-    X, seq_len_X, max_x, min_x = load_data_math15(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M19_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M20_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M20_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M21_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M21_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M22_before(filename):
-    X, seq_len_X, max_x, min_x = load_data(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M22_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M23_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M23_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M24_before(filename):
-    X, seq_len_X, max_x, min_x = load_sequence(filename)
-    return X, seq_len_X, max_x, min_x
-
-
-def load_M24_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M25_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M25_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M26_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M26_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M27_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M27_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M28_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M28_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M29_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M29_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M30_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M30_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M31_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M31_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M32_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M32_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M33_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M33_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M34_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M34_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M35_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '%')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M35_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M36_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M36_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M37_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M37_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M39_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M39_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_classification(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M40_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M40_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M41_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M41_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M42_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M42_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M43_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M43_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M44_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M44_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M45_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M45_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M46_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M46_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M47_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M47_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M48_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M48_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M49_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M49_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M50_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M50_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M51_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M51_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M52_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M52_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M53_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M53_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M54_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence_split(filename, '$')
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M54_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M55_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M55_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_array(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-def load_M56_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M56_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-def load_M57_before(filename):
-    Y, seq_len_Y, max_y, min_y = load_data(filename)
-    return Y, seq_len_Y, max_y, min_y
-
-
-def load_M57_after(filename):
-    Y, seq_len_Y, max_y, min_y = load_sequence(filename)
-    return Y, seq_len_Y, max_y, min_y
 
 
 before_func = {
     # TM
-    'jacksoncore_6': load_M1_before,
-    'compress_30': load_M2_before,
-    'csv_14': load_M3_before,
-    'time_3_addYears': load_M4_before,
-    'time_3_addMonths': load_M5_before,
-    'time_3_addWeeks': load_M6_before,
-    'time_3_addDays': load_M7_before,
-    'time_3_add': load_M8_before,
+    'chart_1': load_M1_before,
+    'chart_2': load_M11_before,
+    'chart_3': load_M11_before,
+    'chart_5': load_M2_before,
+    'chart_7': load_M2_before,
+    'chart_9': load_M11_before,
+    'chart_10': load_M3_before,
+    'chart_13': load_M4_before,
+    'chart_16': load_M3_before,
+    'chart_18': load_M2_before,
+    'chart_20': load_M2_before,
+    'chart_21': load_M3_before,
+    'chart_22': load_M4_before,
+    'chart_23': load_M11_before,
+    'chart_24': load_M4_before,
+    'time_3_addYears': load_M5_before,
+    'time_3_addMonths': load_M6_before,
+    'time_3_addWeeks': load_M7_before,
+    'time_3_addDays': load_M8_before,
+    'time_4': load_M4_before,
+    'time_6': load_M3_before,
+    'time_7_parseInto': load_M3_before,
+    'time_7_mutableDateTime': load_M2_before,
+    'time_8': load_M4_before,
+    'time_9': load_M2_before,
+    'time_10': load_M2_before,
+    'time_12': load_M2_before,
+    'time_13': load_M2_before,
+    'time_15': load_M4_before,
     'time_14_minusMonths': load_M9_before,
     'time_14_plusMonths': load_M10_before,
-    'csv_3': load_M11_before,
-    'lang_21': load_M12_before,
-    'io_18': load_M13_before,
-    'shiro_web_3': load_M14_before,
-    'johnzon_core_2': load_M15_before,
-    'compress_39': load_M16_before,
-    'mockito_6': load_M17_before,
-    'geometry_core_3': load_M18_before,
-    'math_15': load_M19_before,
-    'codec_15': load_M20_before,
-    'codec_3': load_M21_before,
-    'compress_40': load_M22_before,
-    'io_25': load_M23_before,
-    'compress_50': load_M24_before,
-    'math_24': load_M25_before,
-    'io_13': load_M26_before,
-    'cli_34': load_M27_before,
-    'codec_12': load_M28_before,
-    'codec_14': load_M29_before,
-    'suncalc_1': load_M30_before,
-    'compress_6': load_M31_before,
-    'coveralls_maven_plugin_6': load_M32_before,
-    'math_26': load_M33_before,
-    'math_5': load_M34_before,
-    'drools_model_compiler_1': load_M35_before,
-    'gson_9': load_M36_before,
-    'hivemall_core_1': load_M37_before,
-    'io_8': load_M39_before,
-    'io_2': load_M40_before,
-    'vault_core_1': load_M41_before,
-    'jacksoncore_12': load_M42_before,
-    'jacksoncore_28': load_M43_before,
-    'jacksondatabind_101': load_M44_before,
-    'jacksondatabind_12': load_M45_before,
-    'jacksondatabind_56': load_M46_before,
-    'jacksondatabind_87': load_M47_before,
-    'jacksondatabind_30': load_M48_before,
-    'jacksondatabind_31': load_M49_before,
-    'jacksonxml_1': load_M50_before,
-    'jacksonxml_2': load_M51_before,
-    'james_mime4j_core_6': load_M52_before,
-    'james_mime4j_core_7': load_M53_before,
-    'james_mime4j_core_8': load_M54_before,
-    'math_8': load_M56_before,
-    'math_9': load_M57_before
-
+    'time_17': load_M2_before,
+    'time_18': load_M2_before,
+    'time_22': load_M11_before,
+    'time_24': load_M3_before,
+    'time_26': load_M2_before,
+    'time_27': load_M11_before,
+    'lang_1': load_M3_before,
+    'lang_6': load_M3_before,
+    'lang_7': load_M3_before,
+    'lang_8': load_M3_before,
+    'lang_9': load_M1_after,
+    'lang_10': load_M1_after,
+    'lang_11': load_M4_before,
+    'lang_12': load_M3_before,
+    'lang_14': load_M3_before,
+    'lang_16': load_M3_before,
+    'lang_17': load_M3_before,
+    'lang_19': load_M3_before,
+    'lang_20': load_M3_before,
+    'lang_21': load_M2_before,
+    'lang_22': load_M2_before,
+    'lang_24': load_M3_before,
+    'lang_26': load_M2_before,
+    'lang_27': load_M3_before,
+    'lang_28': load_M3_before,
+    'lang_29': load_M3_before,
+    'lang_33': load_M11_before,
+    'lang_36': load_M11_before,
+    'lang_38': load_M1_before,
+    'lang_39': load_M3_before,
+    'lang_41': load_M3_before,
+    'lang_43': load_M3_before,
+    'lang_44': load_M11_before,
+    'lang_45': load_M11_before,
+    'lang_46': load_M3_before,
+    'lang_48': load_M11_before,
+    'lang_49': load_M2_before,
+    'lang_50': load_M3_before,
+    'lang_51': load_M2_before,
+    'lang_52': load_M3_before,
+    'lang_53': load_M1_before,
+    'lang_54': load_M11_before,
+    'lang_55': load_M3_before,
+    'lang_57': load_M2_before,
+    'lang_58': load_M3_before,
+    'lang_59': load_M11_before,
+    'lang_60': load_M2_before,
+    'lang_61': load_M2_before,
+    'lang_62': load_M3_before,
+    'lang_64': load_M2_before,
+    'lang_65': load_M3_before,
+    'math_4j_1': load_M2_after,
+    'math_4j_2': load_M2_after,
+    'math_4j_9': load_M11_before,
+    'math_4j_10': load_M2_before,
+    'math_4j_11': load_M4_before,
+    'math_4j_15': load_M4_before,
+    'math_4j_16': load_M4_after,
+    'math_4j_17': load_M4_after,
+    'math_4j_21': load_M3_before,
+    'math_4j_22': load_M2_before,
+    'math_4j_26': load_M4_before,
+    'math_4j_27': load_M4_before,
+    'math_4j_30': load_M4_before,
+    'math_4j_31': load_M4_before,
+    'math_4j_32': load_M2_before,
+    'math_4j_33': load_M2_before,
+    'math_4j_34': load_M2_before,
+    'math_4j_41': load_M2_before,
+    'math_4j_42': load_M4_before,
+    'math_4j_43': load_M4_before,
+    'math_4j_47': load_M4_before,
+    'math_4j_48': load_M3_before,
+    'math_4j_49': load_M4_before,
+    'math_4j_53': load_M4_before,
+    'math_4j_58': load_M4_before,
+    'math_4j_59': load_M2_before,
+    'math_4j_62': load_M1_before,
+    'math_4j_63': load_M2_before,
+    'math_4j_64': load_M2_before,
+    'math_4j_65': load_M2_before,
+    'math_4j_66': load_M4_before,
+    'math_4j_73': load_M4_before,
+    'math_4j_74': load_M4_before,
+    'math_4j_75': load_M4_before,
+    'math_4j_79': load_M4_before,
+    'math_4j_80': load_M4_before,
+    'math_4j_81': load_M4_before,
+    'math_4j_85': load_M4_before,
+    'math_4j_88': load_M3_before,
+    'math_4j_90': load_M4_before,
+    'math_4j_91': load_M4_before,
+    'math_4j_94': load_M4_before,
+    'math_4j_95': load_M4_before,
+    'math_4j_96': load_M2_before,
+    'math_4j_97': load_M4_before,
+    'math_4j_98': load_M2_before,
+    'math_4j_105': load_M2_before,
+    'math_4j_106': load_M2_before,
+    'closure_3': load_M3_before,
+    'closure_9': load_M3_before,
+    'closure_15': load_M3_before,
+    'closure_17': load_M3_before,
+    'closure_19': load_M3_before,
+    'closure_20': load_M3_before,
+    'closure_23': load_M3_before,
+    'closure_29': load_M3_before,
+    'closure_35': load_M3_before,
+    'closure_37': load_M3_before,
+    'closure_39': load_M3_before,
+    'closure_40': load_M3_before,
+    'closure_56': load_M3_before,
+    'closure_57': load_M3_before,
+    'closure_58': load_M3_before,
+    'closure_62': load_M3_before,
+    'closure_65': load_M3_before,
+    'closure_67': load_M3_before,
+    'closure_68': load_M3_before,
+    'closure_71': load_M1_before,
+    'closure_77': load_M2_before,
+    'closure_83': load_M1_before,
+    'closure_85': load_M2_before,
+    'closure_87': load_M3_before,
+    'closure_88': load_M3_before,
+    'closure_91': load_M2_before,
+    'closure_97': load_M3_before,
+    'closure_103': load_M3_before,
+    'closure_105': load_M4_before,
+    'closure_107': load_M3_before,
+    'closure_108': load_M4_before,
+    'closure_109': load_M3_before,
+    'closure_112': load_M2_before,
+    'closure_118': load_M11_before,
+    'closure_125': load_M3_before,
+    'closure_126': load_M11_before,
+    'closure_130': load_M2_before,
+    'closure_133': load_M4_before
 }
 
 after_func = {
     # TM
-    'jacksoncore_6': load_M1_after,
-    'compress_30': load_M2_after,
-    'csv_14': load_M3_after,
-    'time_3_addYears': load_M4_after,
-    'time_3_addMonths': load_M5_after,
-    'time_3_addWeeks': load_M6_after,
-    'time_3_addDays': load_M7_after,
-    'time_3_add': load_M8_after,
+    'chart_1': load_M2_before,
+    'chart_2': load_M3_after,
+    'chart_3': load_M11_before,
+    'chart_5': load_M3_after,
+    'chart_7': load_M4_after,
+    'chart_9': load_M3_after,
+    'chart_10': load_M3_after,
+    'chart_13': load_M3_after,
+    'chart_16': load_M3_after,
+    'chart_18': load_M3_after,
+    'chart_20': load_M3_after,
+    'chart_21': load_M3_after,
+    'chart_22': load_M4_after,
+    'chart_23': load_M11_before,
+    'chart_24': load_M1_after,
+    'time_3_addYears': load_M5_after,
+    'time_3_addMonths': load_M6_after,
+    'time_3_addWeeks': load_M7_after,
+    'time_3_addDays': load_M8_after,
+    'time_4': load_M3_after,
+    'time_6': load_M3_after,
+    'time_7_parseInto': load_M3_after,
+    'time_7_mutableDateTime': load_M3_after,
+    'time_8': load_M3_after,
+    'time_9': load_M11_before,
+    'time_10': load_M3_after,
+    'time_12': load_M3_after,
+    'time_13': load_M11_before,
     'time_14_minusMonths': load_M9_after,
     'time_14_plusMonths': load_M10_after,
-    'csv_3': load_M11_after,
-    'lang_21': load_M12_after,
-    'io_18': load_M13_after,
-    'shiro_web_3': load_M14_after,
-    'johnzon_core_2': load_M15_after,
-    'compress_39': load_M16_after,
-    'mockito_6': load_M17_after,
-    'geometry_core_3': load_M18_after,
-    'math_15': load_M19_after,
-    'codec_15': load_M20_after,
-    'codec_3': load_M21_after,
-    'compress_40': load_M22_after,
-    'io_25': load_M23_after,
-    'compress_50': load_M24_after,
-    'math_24': load_M25_after,
-    'io_13': load_M26_after,
-    'cli_34': load_M27_after,
-    'codec_12': load_M28_after,
-    'codec_14': load_M29_after,
-    'suncalc_1': load_M30_after,
-    'compress_6': load_M31_after,
-    'coveralls_maven_plugin_6': load_M32_after,
-    'math_26': load_M33_after,
-    'math_5': load_M34_after,
-    'drools_model_compiler_1': load_M35_after,
-    'gson_9': load_M36_after,
-    'hivemall_core_1': load_M37_after,
-    'io_8': load_M39_after,
-    'io_2': load_M40_after,
-    'vault_core_1': load_M41_after,
-    'jacksoncore_12': load_M42_after,
-    'jacksoncore_28': load_M43_after,
-    'jacksondatabind_101': load_M44_after,
-    'jacksondatabind_12': load_M45_after,
-    'jacksondatabind_56': load_M46_after,
-    'jacksondatabind_87': load_M47_after,
-    'jacksondatabind_30': load_M48_after,
-    'jacksondatabind_31': load_M49_after,
-    'jacksonxml_1': load_M50_after,
-    'jacksonxml_2': load_M51_after,
-    'james_mime4j_core_6': load_M52_after,
-    'james_mime4j_core_7': load_M53_after,
-    'james_mime4j_core_8': load_M54_after,
-    'math_8': load_M56_after,
-    'math_9': load_M57_after
-
+    'time_15': load_M3_after,
+    'time_17': load_M3_after,
+    'time_18': load_M3_after,
+    'time_22': load_M3_after,
+    'time_24': load_M3_after,
+    'time_26': load_M3_after,
+    'time_27': load_M3_after,
+    'lang_1': load_M3_after,
+    'lang_6': load_M3_after,
+    'lang_7': load_M3_after,
+    'lang_8': load_M3_after,
+    'lang_9': load_M3_after,
+    'lang_10': load_M3_after,
+    'lang_11': load_M3_after,
+    'lang_12': load_M3_after,
+    'lang_14': load_M1_after,
+    'lang_16': load_M3_after,
+    'lang_17': load_M3_after,
+    'lang_19': load_M3_after,
+    'lang_20': load_M3_after,
+    'lang_21': load_M11_before,
+    'lang_22': load_M2_after,
+    'lang_24': load_M1_after,
+    'lang_26': load_M3_after,
+    'lang_27': load_M1_after,
+    'lang_28': load_M3_after,
+    'lang_29': load_M3_after,
+    'lang_33': load_M3_after,
+    'lang_36': load_M11_before,
+    'lang_38': load_M3_after,
+    'lang_39': load_M3_after,
+    'lang_41': load_M3_after,
+    'lang_43': load_M1_after,
+    'lang_44': load_M3_after,
+    'lang_45': load_M11_before,
+    'lang_46': load_M3_after,
+    'lang_48': load_M1_after,
+    'lang_49': load_M3_after,
+    'lang_50': load_M3_after,
+    'lang_51': load_M2_after,
+    'lang_52': load_M3_after,
+    'lang_53': load_M3_after,
+    'lang_54': load_M3_after,
+    'lang_55': load_M1_after,
+    'lang_57': load_M3_after,
+    'lang_58': load_M3_after,
+    'lang_59': load_M3_after,
+    'lang_60': load_M1_after,
+    'lang_61': load_M2_after,
+    'lang_62': load_M1_after,
+    'lang_64': load_M3_after,
+    'lang_65': load_M1_after,
+    'math_4j_1': load_M3_after,
+    'math_4j_2': load_M4_after,
+    'math_4j_9': load_M4_after,
+    'math_4j_10': load_M4_after,
+    'math_4j_11': load_M4_after,
+    'math_4j_15': load_M4_after,
+    'math_4j_16': load_M4_after,
+    'math_4j_17': load_M3_after,
+    'math_4j_21': load_M3_after,
+    'math_4j_22': load_M2_after,
+    'math_4j_26': load_M3_after,
+    'math_4j_27': load_M4_after,
+    'math_4j_30': load_M1_after,
+    'math_4j_31': load_M3_after,
+    'math_4j_32': load_M3_after,
+    'math_4j_33': load_M4_after,
+    'math_4j_34': load_M4_after,
+    'math_4j_41': load_M4_after,
+    'math_4j_42': load_M4_after,
+    'math_4j_43': load_M4_after,
+    'math_4j_47': load_M4_after,
+    'math_4j_48': load_M3_after,
+    'math_4j_49': load_M3_after,
+    'math_4j_53': load_M4_after,
+    'math_4j_58': load_M1_after,
+    'math_4j_59': load_M3_after,
+    'math_4j_62': load_M1_after,
+    'math_4j_63': load_M4_after,
+    'math_4j_64': load_M4_after,
+    'math_4j_65': load_M4_after,
+    'math_4j_66': load_M4_after,
+    'math_4j_73': load_M4_after,
+    'math_4j_74': load_M4_after,
+    'math_4j_75': load_M4_after,
+    'math_4j_79': load_M4_after,
+    'math_4j_80': load_M4_after,
+    'math_4j_81': load_M1_after,
+    'math_4j_85': load_M3_after,
+    'math_4j_88': load_M4_after,
+    'math_4j_90': load_M4_after,
+    'math_4j_91': load_M4_after,
+    'math_4j_94': load_M4_after,
+    'math_4j_95': load_M4_after,
+    'math_4j_96': load_M2_after,
+    'math_4j_97': load_M1_after,
+    'math_4j_98': load_M4_after,
+    'math_4j_105': load_M4_after,
+    'math_4j_106': load_M4_after,
+    'closure_3': load_M3_after,
+    'closure_9': load_M3_after,
+    'closure_15': load_M3_after,
+    'closure_17': load_M3_after,
+    'closure_19': load_M3_after,
+    'closure_20': load_M3_after,
+    'closure_23': load_M4_after,
+    'closure_29': load_M3_after,
+    'closure_35': load_M4_after,
+    'closure_37': load_M1_after,
+    'closure_39': load_M4_after,
+    'closure_40': load_M1_after,
+    'closure_56': load_M3_after,
+    'closure_57': load_M3_after,
+    'closure_58': load_M11_before,
+    'closure_62': load_M3_after,
+    'closure_65': load_M3_after,
+    'closure_67': load_M3_after,
+    'closure_68': load_M3_after,
+    'closure_71': load_M4_after,
+    'closure_77': load_M3_after,
+    'closure_83': load_M4_after,
+    'closure_85': load_M4_after,
+    'closure_87': load_M1_after,
+    'closure_88': load_M1_after,
+    'closure_91': load_M3_after,
+    'closure_97': load_M3_after,
+    'closure_103': load_M3_after,
+    'closure_105': load_M3_after,
+    'closure_107': load_M3_after,
+    'closure_108': load_M3_after,
+    'closure_109': load_M3_after,
+    'closure_112': load_M3_after,
+    'closure_118': load_M3_after,
+    'closure_125': load_M3_after,
+    'closure_126': load_M1_after,
+    'closure_130': load_M3_after,
+    'closure_133': load_M3_after
 }

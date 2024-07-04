@@ -1,6 +1,6 @@
 ## Selected Projects From Defects4J -- version 1.0.0
 
-| Identifier | Project name        | Number of bugs | Bugs selected for evaluation |
+| Identifier | Project name        | Number of bugs | #Bugs selected for evaluation |
 | ---------- | ------------------- | -------------- | ---------------------------- |
 | Chart      | JFreechart          | 26             | 15                           |
 | Closure    | Closure compiler    | 133            | 49                           |

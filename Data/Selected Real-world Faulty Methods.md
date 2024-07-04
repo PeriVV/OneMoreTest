@@ -1,13 +1,13 @@
 ## Selected Projects From Defects4J -- version 1.0.0
 
-| Identifier | Project name        | Number of bugs | #Bugs selected for evaluation |
-| ---------- | ------------------- | -------------- | ---------------------------- |
-| Chart      | JFreechart          | 26             | 15                           |
-| Closure    | Closure compiler    | 133            | 49                           |
-| Lang       | Apache commons-lang | 63             | 44                           |
-| Math       | Apache commons-math | 106            | 48                           |
-| Time       | Joda-Time           | 27             | 22                           |
-| **Total**  |                     | **355**        | **178**                      |
+| Identifier | Project name        | Number of bugs | # Bugs selected for evaluation |
+| ---------- | ------------------- | -------------- | ------------------------------ |
+| Chart      | JFreechart          | 26             | 15                             |
+| Closure    | Closure compiler    | 133            | 49                             |
+| Lang       | Apache commons-lang | 63             | 44                             |
+| Math       | Apache commons-math | 106            | 48                             |
+| Time       | Joda-Time           | 27             | 22                             |
+| **Total**  |                     | **355**        | **178**                        |
 
 ## Selected Real-world Faulty Methods
 
@@ -193,182 +193,182 @@
 
 ## Excluded Faulty methods
 
-|  ID  | Excluded methods | Reason for Exclusion |
-| :--: | :--------------: | :------------------: |
-|  M1  |     Chart_4      |   100% error rate    |
-|  M2  |     Chart_6      |   100% error rate    |
-|  M3  |     Chart_8      |   100% error rate    |
-|  M4  |     Chart_11     |   100% error rate    |
-|  M5  |     Chart_12     |   100% error rate    |
-|  M6  |     Chart_14     |   100% error rate    |
-|  M7  |     Chart_15     |   100% error rate    |
-|  M8  |     Chart_17     |   100% error rate    |
-|  M9  |     Chart_19     |   100% error rate    |
-| M10  |     Chart_23     |   100% error rate    |
-| M11  |     Chart_25     |   100% error rate    |
-| M12  |     Chart_26     |   100% error rate    |
-| M13  |      Time_1      |   100% error rate    |
-| M14  |      Time_2      |   100% error rate    |
-| M15  |      Time_5      |   100% error rate    |
-| M16  |     Time_11      |   100% error rate    |
-| M17  |     Time_16      |   100% error rate    |
-| M18  |     Time_19      |   100% error rate    |
-| M19  |     Time_20      |   100% error rate    |
-| M20  |     Time_23      |   100% error rate    |
-| M21  |     Time_25      |   100% error rate    |
-| M22  |      Lang_3      |   100% error rate    |
-| M23  |      Lang_4      |   100% error rate    |
-| M24  |      Lang_5      |   100% error rate    |
-| M25  |     Lang_13      |   100% error rate    |
-| M26  |     Lang_18      |   100% error rate    |
-| M27  |     Lang_23      |   100% error rate    |
-| M28  |     Lang_25      |   100% error rate    |
-| M29  |     Lang_30      |   100% error rate    |
-| M30  |     Lang_31      |   100% error rate    |
-| M31  |     Lang_32      |   100% error rate    |
-| M32  |     Lang_35      |   100% error rate    |
-| M33  |     Lang_37      |   100% error rate    |
-| M34  |     Lang_40      |   100% error rate    |
-| M35  |     Lang_42      |   100% error rate    |
-| M36  |     Lang_47      |   100% error rate    |
-| M37  |     Lang_50      |   100% error rate    |
-| M38  |     Lang_56      |   100% error rate    |
-| M39  |     Lang_63      |   100% error rate    |
-| M40  |    Math_4j_3     |   100% error rate    |
-| M41  |    Math_4j_4     |   100% error rate    |
-| M42  |    Math_4j_5     |   100% error rate    |
-| M43  |    Math_4j_6     |   100% error rate    |
-| M44  |    Math_4j_7     |   100% error rate    |
-| M45  |    Math_4j_8     |   100% error rate    |
-| M46  |    Math_4j_12    |   100% error rate    |
-| M47  |    Math_4j_13    |   100% error rate    |
-| M48  |    Math_4j_14    |   100% error rate    |
-| M49  |    Math_4j_18    |   100% error rate    |
-| M50  |    Math_4j_19    |   100% error rate    |
-| M51  |    Math_4j_20    |   100% error rate    |
-| M52  |    Math_4j_22    |   100% error rate    |
-| M53  |    Math_4j_23    |   100% error rate    |
-| M54  |    Math_4j_24    |   100% error rate    |
-| M55  |    Math_4j_25    |   100% error rate    |
-| M56  |    Math_4j_28    |   100% error rate    |
-| M57  |    Math_4j_29    |   100% error rate    |
-| M58  |    Math_4j_35    |   100% error rate    |
-| M59  |    Math_4j_36    |   100% error rate    |
-| M60  |    Math_4j_37    |   100% error rate    |
-| M61  |    Math_4j_38    |   100% error rate    |
-| M62  |    Math_4j_39    |   100% error rate    |
-| M63  |    Math_4j_40    |   100% error rate    |
-| M64  |    Math_4j_44    |   100% error rate    |
-| M65  |    Math_4j_45    |   100% error rate    |
-| M66  |    Math_4j_46    |   100% error rate    |
-| M67  |    Math_4j_50    |   100% error rate    |
-| M68  |    Math_4j_51    |   100% error rate    |
-| M69  |    Math_4j_52    |   100% error rate    |
-| M70  |    Math_4j_54    |   100% error rate    |
-| M71  |    Math_4j_55    |   100% error rate    |
-| M72  |    Math_4j_56    |   100% error rate    |
-| M73  |    Math_4j_57    |   100% error rate    |
-| M74  |    Math_4j_60    |   100% error rate    |
-| M75  |    Math_4j_61    |   100% error rate    |
-| M76  |    Math_4j_67    |   100% error rate    |
-| M77  |    Math_4j_68    |   100% error rate    |
-| M78  |    Math_4j_69    |   100% error rate    |
-| M79  |    Math_4j_70    |   100% error rate    |
-| M80  |    Math_4j_71    |   100% error rate    |
-| M81  |    Math_4j_72    |   100% error rate    |
-| M82  |    Math_4j_76    |   100% error rate    |
-| M83  |    Math_4j_77    |   100% error rate    |
-| M84  |    Math_4j_78    |   100% error rate    |
-| M85  |    Math_4j_82    |   100% error rate    |
-| M86  |    Math_4j_83    |   100% error rate    |
-| M87  |    Math_4j_84    |   100% error rate    |
-| M88  |    Math_4j_86    |   100% error rate    |
-| M89  |    Math_4j_87    |   100% error rate    |
-| M90  |    Math_4j_89    |   100% error rate    |
-| M91  |    Math_4j_92    |   100% error rate    |
-| M92  |    Math_4j_93    |   100% error rate    |
-| M93  |    Math_4j_99    |   100% error rate    |
-| M94  |   Math_4j_100    |   100% error rate    |
-| M95  |   Math_4j_101    |   100% error rate    |
-| M96  |   Math_4j_102    |   100% error rate    |
-| M97  |   Math_4j_103    |   100% error rate    |
-| M98  |   Math_4j_104    |   100% error rate    |
-| M99  |    Closure_1     |   100% error rate    |
-| M100 |    Closure_2     |   100% error rate    |
-| M101 |    Closure_4     |   100% error rate    |
-| M102 |    Closure_5     |   100% error rate    |
-| M103 |    Closure_6     |   100% error rate    |
-| M104 |    Closure_7     |   100% error rate    |
-| M105 |    Closure_8     |   100% error rate    |
-| M106 |    Closure_10    |    external files    |
-| M107 |    Closure_11    |    external files    |
-| M108 |    Closure_12    |    external files    |
-| M109 |    Closure_13    |    external files    |
-| M110 |    Closure_14    |    external files    |
-| M111 |    Closure_16    |   100% error rate    |
-| M112 |    Closure_18    |   100% error rate    |
-| M113 |    Closure_21    |   100% error rate    |
-| M114 |    Closure_22    |   100% error rate    |
-| M115 |    Closure_24    |   100% error rate    |
-| M116 |    Closure_25    |   100% error rate    |
-| M117 |    Closure_30    |    external files    |
-| M118 |    Closure_31    |    external files    |
-| M119 |    Closure_34    |    external files    |
-| M120 |    Closure_36    |   100% error rate    |
-| M121 |    Closure_38    |   100% error rate    |
-| M122 |    Closure_42    |   100% error rate    |
-| M123 |    Closure_43    |   100% error rate    |
-| M124 |    Closure_45    |   100% error rate    |
-| M125 |    Closure_46    |   100% error rate    |
-| M126 |    Closure_47    |   100% error rate    |
-| M127 |    Closure_48    |   100% error rate    |
-| M128 |    Closure_49    |   100% error rate    |
-| M129 |    Closure_51    |    external files    |
-| M130 |    Closure_52    |    external files    |
-| M131 |    Closure_53    |    external files    |
-| M132 |    Closure_54    |    external files    |
-| M133 |    Closure_55    |    external files    |
-| M134 |    Closure_59    |   100% error rate    |
-| M135 |    Closure_60    |   100% error rate    |
-| M136 |    Closure_61    |   100% error rate    |
-| M137 |    Closure_63    |   100% error rate    |
-| M138 |    Closure_64    |   100% error rate    |
-| M139 |    Closure_66    |   100% error rate    |
-| M140 |    Closure_69    |   100% error rate    |
-| M141 |    Closure_70    |   100% error rate    |
-| M142 |    Closure_72    |   100% error rate    |
-| M143 |    Closure_73    |   100% error rate    |
-| M144 |    Closure_74    |   100% error rate    |
-| M145 |    Closure_75    |   100% error rate    |
-| M146 |    Closure_76    |   100% error rate    |
-| M147 |    Closure_78    |    external files    |
-| M148 |    Closure_79    |    external files    |
-| M149 |    Closure_80    |    external files    |
-| M150 |    Closure_81    |    external files    |
-| M151 |    Closure_82    |    external files    |
-| M152 |    Closure_84    |   100% error rate    |
-| M153 |    Closure_86    |   100% error rate    |
-| M154 |    Closure_90    |   100% error rate    |
-| M155 |    Closure_92    |   100% error rate    |
-| M156 |    Closure_93    |   100% error rate    |
-| M157 |    Closure_94    |   100% error rate    |
-| M158 |    Closure_95    |   100% error rate    |
-| M159 |    Closure_96    |   100% error rate    |
-| M160 |    Closure_98    |    external files    |
-| M161 |    Closure_99    |    external files    |
-| M162 |   Closure_100    |    external files    |
-| M163 |   Closure_104    |   100% error rate    |
-| M164 |   Closure_106    |   100% error rate    |
-| M165 |   Closure_110    |   100% error rate    |
-| M166 |   Closure_111    |   100% error rate    |
-| M167 |   Closure_113    |   100% error rate    |
-| M168 |   Closure_119    |    external files    |
-| M169 |   Closure_120    |    external files    |
-| M170 |   Closure_121    |    external files    |
-| M171 |   Closure_122    |    external files    |
-| M172 |   Closure_123    |    external files    |
-| M173 |   Closure_127    |   100% error rate    |
-| M174 |   Closure_128    |   100% error rate    |
-| M175 |   Closure_129    |   100% error rate    |
-| M176 |   Closure_131    |   100% error rate    |
-| M177 |   Closure_132    |   100% error rate    |
+|  ID  | BugID of Excluded methods | Reason for Exclusion |
+| :--: | :-----------------------: | :------------------: |
+|  M1  |          Chart_4          |   100% error rate    |
+|  M2  |          Chart_6          |   100% error rate    |
+|  M3  |          Chart_8          |   100% error rate    |
+|  M4  |         Chart_11          |   100% error rate    |
+|  M5  |         Chart_12          |   100% error rate    |
+|  M6  |         Chart_14          |   100% error rate    |
+|  M7  |         Chart_15          |   100% error rate    |
+|  M8  |         Chart_17          |   100% error rate    |
+|  M9  |         Chart_19          |   100% error rate    |
+| M10  |         Chart_23          |   100% error rate    |
+| M11  |         Chart_25          |   100% error rate    |
+| M12  |         Chart_26          |   100% error rate    |
+| M13  |          Time_1           |   100% error rate    |
+| M14  |          Time_2           |   100% error rate    |
+| M15  |          Time_5           |   100% error rate    |
+| M16  |          Time_11          |   100% error rate    |
+| M17  |          Time_16          |   100% error rate    |
+| M18  |          Time_19          |   100% error rate    |
+| M19  |          Time_20          |   100% error rate    |
+| M20  |          Time_23          |   100% error rate    |
+| M21  |          Time_25          |   100% error rate    |
+| M22  |          Lang_3           |   100% error rate    |
+| M23  |          Lang_4           |   100% error rate    |
+| M24  |          Lang_5           |   100% error rate    |
+| M25  |          Lang_13          |   100% error rate    |
+| M26  |          Lang_18          |   100% error rate    |
+| M27  |          Lang_23          |   100% error rate    |
+| M28  |          Lang_25          |   100% error rate    |
+| M29  |          Lang_30          |   100% error rate    |
+| M30  |          Lang_31          |   100% error rate    |
+| M31  |          Lang_32          |   100% error rate    |
+| M32  |          Lang_35          |   100% error rate    |
+| M33  |          Lang_37          |   100% error rate    |
+| M34  |          Lang_40          |   100% error rate    |
+| M35  |          Lang_42          |   100% error rate    |
+| M36  |          Lang_47          |   100% error rate    |
+| M37  |          Lang_50          |   100% error rate    |
+| M38  |          Lang_56          |   100% error rate    |
+| M39  |          Lang_63          |   100% error rate    |
+| M40  |         Math_4j_3         |   100% error rate    |
+| M41  |         Math_4j_4         |   100% error rate    |
+| M42  |         Math_4j_5         |   100% error rate    |
+| M43  |         Math_4j_6         |   100% error rate    |
+| M44  |         Math_4j_7         |   100% error rate    |
+| M45  |         Math_4j_8         |   100% error rate    |
+| M46  |        Math_4j_12         |   100% error rate    |
+| M47  |        Math_4j_13         |   100% error rate    |
+| M48  |        Math_4j_14         |   100% error rate    |
+| M49  |        Math_4j_18         |   100% error rate    |
+| M50  |        Math_4j_19         |   100% error rate    |
+| M51  |        Math_4j_20         |   100% error rate    |
+| M52  |        Math_4j_22         |   100% error rate    |
+| M53  |        Math_4j_23         |   100% error rate    |
+| M54  |        Math_4j_24         |   100% error rate    |
+| M55  |        Math_4j_25         |   100% error rate    |
+| M56  |        Math_4j_28         |   100% error rate    |
+| M57  |        Math_4j_29         |   100% error rate    |
+| M58  |        Math_4j_35         |   100% error rate    |
+| M59  |        Math_4j_36         |   100% error rate    |
+| M60  |        Math_4j_37         |   100% error rate    |
+| M61  |        Math_4j_38         |   100% error rate    |
+| M62  |        Math_4j_39         |   100% error rate    |
+| M63  |        Math_4j_40         |   100% error rate    |
+| M64  |        Math_4j_44         |   100% error rate    |
+| M65  |        Math_4j_45         |   100% error rate    |
+| M66  |        Math_4j_46         |   100% error rate    |
+| M67  |        Math_4j_50         |   100% error rate    |
+| M68  |        Math_4j_51         |   100% error rate    |
+| M69  |        Math_4j_52         |   100% error rate    |
+| M70  |        Math_4j_54         |   100% error rate    |
+| M71  |        Math_4j_55         |   100% error rate    |
+| M72  |        Math_4j_56         |   100% error rate    |
+| M73  |        Math_4j_57         |   100% error rate    |
+| M74  |        Math_4j_60         |   100% error rate    |
+| M75  |        Math_4j_61         |   100% error rate    |
+| M76  |        Math_4j_67         |   100% error rate    |
+| M77  |        Math_4j_68         |   100% error rate    |
+| M78  |        Math_4j_69         |   100% error rate    |
+| M79  |        Math_4j_70         |   100% error rate    |
+| M80  |        Math_4j_71         |   100% error rate    |
+| M81  |        Math_4j_72         |   100% error rate    |
+| M82  |        Math_4j_76         |   100% error rate    |
+| M83  |        Math_4j_77         |   100% error rate    |
+| M84  |        Math_4j_78         |   100% error rate    |
+| M85  |        Math_4j_82         |   100% error rate    |
+| M86  |        Math_4j_83         |   100% error rate    |
+| M87  |        Math_4j_84         |   100% error rate    |
+| M88  |        Math_4j_86         |   100% error rate    |
+| M89  |        Math_4j_87         |   100% error rate    |
+| M90  |        Math_4j_89         |   100% error rate    |
+| M91  |        Math_4j_92         |   100% error rate    |
+| M92  |        Math_4j_93         |   100% error rate    |
+| M93  |        Math_4j_99         |   100% error rate    |
+| M94  |        Math_4j_100        |   100% error rate    |
+| M95  |        Math_4j_101        |   100% error rate    |
+| M96  |        Math_4j_102        |   100% error rate    |
+| M97  |        Math_4j_103        |   100% error rate    |
+| M98  |        Math_4j_104        |   100% error rate    |
+| M99  |         Closure_1         |   100% error rate    |
+| M100 |         Closure_2         |   100% error rate    |
+| M101 |         Closure_4         |   100% error rate    |
+| M102 |         Closure_5         |   100% error rate    |
+| M103 |         Closure_6         |   100% error rate    |
+| M104 |         Closure_7         |   100% error rate    |
+| M105 |         Closure_8         |   100% error rate    |
+| M106 |        Closure_10         |    external files    |
+| M107 |        Closure_11         |    external files    |
+| M108 |        Closure_12         |    external files    |
+| M109 |        Closure_13         |    external files    |
+| M110 |        Closure_14         |    external files    |
+| M111 |        Closure_16         |   100% error rate    |
+| M112 |        Closure_18         |   100% error rate    |
+| M113 |        Closure_21         |   100% error rate    |
+| M114 |        Closure_22         |   100% error rate    |
+| M115 |        Closure_24         |   100% error rate    |
+| M116 |        Closure_25         |   100% error rate    |
+| M117 |        Closure_30         |    external files    |
+| M118 |        Closure_31         |    external files    |
+| M119 |        Closure_34         |    external files    |
+| M120 |        Closure_36         |   100% error rate    |
+| M121 |        Closure_38         |   100% error rate    |
+| M122 |        Closure_42         |   100% error rate    |
+| M123 |        Closure_43         |   100% error rate    |
+| M124 |        Closure_45         |   100% error rate    |
+| M125 |        Closure_46         |   100% error rate    |
+| M126 |        Closure_47         |   100% error rate    |
+| M127 |        Closure_48         |   100% error rate    |
+| M128 |        Closure_49         |   100% error rate    |
+| M129 |        Closure_51         |    external files    |
+| M130 |        Closure_52         |    external files    |
+| M131 |        Closure_53         |    external files    |
+| M132 |        Closure_54         |    external files    |
+| M133 |        Closure_55         |    external files    |
+| M134 |        Closure_59         |   100% error rate    |
+| M135 |        Closure_60         |   100% error rate    |
+| M136 |        Closure_61         |   100% error rate    |
+| M137 |        Closure_63         |   100% error rate    |
+| M138 |        Closure_64         |   100% error rate    |
+| M139 |        Closure_66         |   100% error rate    |
+| M140 |        Closure_69         |   100% error rate    |
+| M141 |        Closure_70         |   100% error rate    |
+| M142 |        Closure_72         |   100% error rate    |
+| M143 |        Closure_73         |   100% error rate    |
+| M144 |        Closure_74         |   100% error rate    |
+| M145 |        Closure_75         |   100% error rate    |
+| M146 |        Closure_76         |   100% error rate    |
+| M147 |        Closure_78         |    external files    |
+| M148 |        Closure_79         |    external files    |
+| M149 |        Closure_80         |    external files    |
+| M150 |        Closure_81         |    external files    |
+| M151 |        Closure_82         |    external files    |
+| M152 |        Closure_84         |   100% error rate    |
+| M153 |        Closure_86         |   100% error rate    |
+| M154 |        Closure_90         |   100% error rate    |
+| M155 |        Closure_92         |   100% error rate    |
+| M156 |        Closure_93         |   100% error rate    |
+| M157 |        Closure_94         |   100% error rate    |
+| M158 |        Closure_95         |   100% error rate    |
+| M159 |        Closure_96         |   100% error rate    |
+| M160 |        Closure_98         |    external files    |
+| M161 |        Closure_99         |    external files    |
+| M162 |        Closure_100        |    external files    |
+| M163 |        Closure_104        |   100% error rate    |
+| M164 |        Closure_106        |   100% error rate    |
+| M165 |        Closure_110        |   100% error rate    |
+| M166 |        Closure_111        |   100% error rate    |
+| M167 |        Closure_113        |   100% error rate    |
+| M168 |        Closure_119        |    external files    |
+| M169 |        Closure_120        |    external files    |
+| M170 |        Closure_121        |    external files    |
+| M171 |        Closure_122        |    external files    |
+| M172 |        Closure_123        |    external files    |
+| M173 |        Closure_127        |   100% error rate    |
+| M174 |        Closure_128        |   100% error rate    |
+| M175 |        Closure_129        |   100% error rate    |
+| M176 |        Closure_131        |   100% error rate    |
+| M177 |        Closure_132        |   100% error rate    |

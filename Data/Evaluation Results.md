@@ -591,7 +591,7 @@ The evaluation results are presented in the first five columns of Table. The sec
     <td>0.07</td><td>0.78</td><td>7.87</td><td>0</td><td>3</td><td>31</td><td>0</td><td>2</td><td>20</td><td>1</td><td>10</td><td>90</td>
 </tr>
 <tr>
-        <th colspan="2"><b>Precision@k</b></th>
+        <th colspan="3"><b>Precision@k</b></th>
         <th>76.47%</th>
         <th>78.71%</th>
         <th>78.08%</th>
@@ -609,7 +609,7 @@ The evaluation results are presented in the first five columns of Table. The sec
         <th>58.70%</th>
     </tr>
     <tr>
-        <th colspan="2"><b>Recall@k</b></th>
+        <th colspan="3"><b>Recall@k</b></th>
         <th>73.03%</th>
         <th>82.58%</th>
         <th>87.08%</th>

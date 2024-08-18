@@ -570,13 +570,13 @@ The evaluation results are presented in the first five columns of Table. The sec
     <td>M175</td> 
     <td>math_4j_66</td>
     <td>97.05%</td> 
-    <td>0</td> <td>0.09</td> <td>0.97</td> <td>0.21</td> <td>2.14</td> <td>4.08</td> <td>1</td> <td>10</td> <td>100</td>
+    <td>0</td><td>0.09</td><td>0.97</td><td>0</td><td>2</td><td>4</td><td>1</td><td>10</td><td>100</td><td>1</td><td>10</td><td>99</td>
 </tr>
 <tr>
     <td>M176</td> 
     <td>math_4j_73</td>
     <td>53%</td> 
-    <td>0</td><td>0.09</td><td>0.97</td><td>0</td><td>2</td><td>4</td><td>1</td><td>10</td><td>100</td><td>1</td><td>10</td><td>99</td>
+    <td>0.97</td><td>9.7</td><td>97</td><td>0</td><td>4</td><td>41</td><td>1</td><td>5</td><td>50</td><td>1</td><td>10</td><td>100</td>
 </tr>
 <tr>
     <td>M177</td> 
